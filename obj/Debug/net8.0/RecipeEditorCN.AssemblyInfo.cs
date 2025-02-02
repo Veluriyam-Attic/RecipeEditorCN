@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecipeEditorCN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4abebab202cf1ca0ce0c890cba1510e28c6f141a")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecipeEditorCN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecipeEditorCN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
