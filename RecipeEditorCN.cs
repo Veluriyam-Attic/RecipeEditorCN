@@ -1,20 +1,26 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Terraria.ModLoader;
 using TigerForceLocalizationLib;
 using TigerForceLocalizationLib.Filters;
 
-namespace RecipeEditorCN
-{
-	public class RecipeEditor : Mod
-	{
-        public override void PostSetupContent()
-        {
-            TigerForceLocalizationHelper.LocalizeAll("RecipeEditorCN", "RecipeEditor", false);
-        }
+namespace RecipeEditorCN;
 
-	}
+public class RecipeEditorCN : Mod
+{
+    private static readonly bool firstRegister = true;
+    public override void PostSetupContent()
+    {
+        if (firstRegister)
+        {
+            TigerForceLocalizationHelper.LocalizeAll(nameof(RecipeEditorCN), "RecipeEditor", true, filters: new()
+            {
+                MethodFilter = MethodFilter.CommonMethodFilter,
+                CursorFilter = ILCursorFilter.CommonCursorFilter,
+            });
+            TigerForceLocalizationHelper.ShowLocalizationRegisterProgress();
+        }
+        else
+        {
+            TigerForceLocalizationHelper.LocalizeAll(nameof(RecipeEditorCN), "RecipeEditor");
+        }
+    }
 }
