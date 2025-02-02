@@ -85,7 +85,7 @@
             </summary>
             <inheritdoc/>
         </member>
-        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.#ctor(System.Func{System.Reflection.MethodInfo,System.Boolean})">
+        <member name="M:TigerForceLocalizationLib.Filters.MethodFilter.#ctor(System.Func{System.Reflection.MethodBase,System.Boolean})">
             <summary>
             用以筛选方法
             </summary>
@@ -243,7 +243,7 @@
             单例
             </summary>
         </member>
-        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String})">
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodBase,System.Collections.Generic.Dictionary{System.String,System.String})">
             <summary>
             <br/>替换一个方法中的字符串
             <br/>只能在加载阶段使用
@@ -252,7 +252,7 @@
             <br/>或 <see cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
             <br/>注意如果此方法有多个重载 (即多个重名的方法), 则上述三个无法使用 (只能用这个)
             </summary>
-            <param name="methodInfo">此方法, 由反射得到</param>
+            <param name="methodBase">此方法, 由反射得到</param>
             <param name="localizations">需要替换的字符串, 键为替换前, 值为替换后</param>
         </member>
         <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
@@ -262,7 +262,7 @@
             </summary>
             <param name="type">包含此方法的类型</param>
             <param name="methodName">此方法名</param>
-            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodBase,System.Collections.Generic.Dictionary{System.String,System.String})"/>
             <param name="localizations"></param>
         </member>
         <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
@@ -283,7 +283,7 @@
             <param name="methodName"></param>
             <param name="localizations"></param>
         </member>
-        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrder(System.Reflection.MethodInfo,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})">
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrder(System.Reflection.MethodBase,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})">
             <summary>
             <br/>替换一个方法中的字符串
             <br/>只能在加载阶段使用
@@ -296,12 +296,12 @@
             <br/>需要替换的字符串, 需按顺序装有 (替换前, 替换后) 的值
             <br/>即使不需要替换也要写上一项 (替换前和替换后相同的值)
             </param>
-            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String})"/>
-            <param name="methodInfo"></param>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodBase,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <param name="methodBase"></param>
         </member>
         <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByType(System.Type,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})">
             <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
-            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrder(System.Reflection.MethodInfo,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})"/>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrder(System.Reflection.MethodBase,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})"/>
         </member>
         <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByTypeName(System.String,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})">
             <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByType(System.Type,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})"/>
@@ -311,7 +311,7 @@
             <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeInOrderByType(System.Type,System.String,System.Collections.Generic.List{System.ValueTuple{System.String,System.String}})"/>
             <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByTypeFullName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
         </member>
-        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerived(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)">
+        <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerived(System.Reflection.MethodBase,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)">
             <summary>
             <br/>替换所有子类中此方法的重写中的字符串
             <br/>只能在加载阶段使用
@@ -319,8 +319,8 @@
             <br/>注意如果此方法有多个重载 (即多个重名的方法), 则上面那个无法使用 (只能用这个)
             </summary>
             <param name="includeSelf">是否同时替换此方法下的字符串</param>
-            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String})"/>
-            <param name="methodInfo"></param>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.Localize(System.Reflection.MethodBase,System.Collections.Generic.Dictionary{System.String,System.String})"/>
+            <param name="methodBase"></param>
             <param name="localizations"></param>
         </member>
         <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerivedByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)">
@@ -328,7 +328,7 @@
             <br/>替换所有子类中此方法的重写中的字符串
             <br/>只能在加载阶段使用
             </summary>
-            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerived(System.Reflection.MethodInfo,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)"/>
+            <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerived(System.Reflection.MethodBase,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)"/>
             <inheritdoc cref="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeByType(System.Type,System.String,System.Collections.Generic.Dictionary{System.String,System.String})"/>
         </member>
         <member name="M:TigerForceLocalizationLib.ForceLocalizeSystem`1.LocalizeDerivedByTypeName(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean)">
@@ -513,7 +513,7 @@
             </param>
             <param name="filters">筛选需要本地化的内容</param>
         </member>
-        <member name="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeMethod(System.Reflection.MethodInfo,System.String,System.Boolean,System.Boolean,TigerForceLocalizationLib.Filters.ILCursorFilter)">
+        <member name="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeMethod(System.Reflection.MethodBase,System.String,System.Boolean,System.Boolean,TigerForceLocalizationLib.Filters.ILCursorFilter)">
             <summary>
             本地化特定方法, 具体规则见 <see cref="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeAll(System.String,System.String,System.Boolean,System.String,System.Boolean,TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeFilters)"/>
             </summary>
@@ -530,13 +530,13 @@
             <param name="registerKey"></param>
             <param name="useLocalizedText"></param>
         </member>
-        <member name="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeMethodByRoot(System.Reflection.MethodInfo,System.String,System.Boolean,System.Boolean)">
+        <member name="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeMethodByRoot(System.Reflection.MethodBase,System.String,System.Boolean,System.Boolean)">
             <param name="localizationRoot">
             <br/>本地化键名的根
             <br/>建议以 "Mods.&lt;selfModName>" 开头
             <br/>实际的键名会是 &lt;<paramref name="localizationRoot"/>>.&lt;type.FullName>.&lt;method name>.&lt;序号>.OldString/NewString
             </param>
-            <inheritdoc cref="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeMethod(System.Reflection.MethodInfo,System.String,System.Boolean,System.Boolean,TigerForceLocalizationLib.Filters.ILCursorFilter)"/>
+            <inheritdoc cref="M:TigerForceLocalizationLib.TigerForceLocalizationHelper.LocalizeMethod(System.Reflection.MethodBase,System.String,System.Boolean,System.Boolean,TigerForceLocalizationLib.Filters.ILCursorFilter)"/>
             <param name="method"></param>
             <param name="registerKey"></param>
             <param name="useLocalizedText"></param>
