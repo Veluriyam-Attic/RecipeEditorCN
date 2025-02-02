@@ -1,0 +1,584 @@
+"Keybinds.Open Editor.DisplayName": Open Editor
+
+Items: {
+	FakeItem: {
+		DisplayName: Fake Item
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	ClientSettings: {
+		DisplayName: Client Settings
+
+		acceptrecipeshares: {
+			Label: Accept incoming recipe shares
+			Tooltip: ""
+		}
+
+		acceptgroupshares: {
+			Label: Accept incoming group shares
+			Tooltip: ""
+		}
+
+		acceptprofileshares: {
+			Label: Accept incoming profile shares
+			Tooltip: ""
+		}
+
+		showchatmessage: {
+			Label: showchatmessage
+			Tooltip: ""
+		}
+
+		windowposition: {
+			Label: Window position
+			Tooltip: ""
+		}
+
+		smartcursorscroll: {
+			Tooltip: ""
+			Label: smartcursorscroll
+		}
+
+		hideconfigwarning: {
+			Label: Hide config auto check warning
+			Tooltip: ""
+		}
+	}
+
+	GroupEdits: {
+		DisplayName: Legacy Group Edits
+
+		groups: {
+			Label: New Groups
+			Tooltip: ""
+		}
+	}
+
+	RecipeGroupDefinition: {
+		Tooltip: ""
+
+		groupname: {
+			Label: Group Name
+			Tooltip: ""
+		}
+
+		validitems: {
+			Label: Items in Group
+			Tooltip: ""
+		}
+
+		disabled: {
+			Label: Disabled
+			Tooltip: ""
+		}
+
+		deleteme: {
+			Label: Delete Me
+			Tooltip: ""
+		}
+	}
+
+	ProfileConfig: {
+		DisplayName: Legacy Profiles
+
+		profiles: {
+			Label: Profiles
+			Tooltip: ""
+		}
+	}
+
+	ProfilesForConfig: {
+		Tooltip: ""
+
+		profilename: {
+			Label: Profile Name
+			Tooltip: ""
+		}
+
+		recipes: {
+			Label: Recipe Edits
+			Tooltip: ""
+		}
+
+		groups: {
+			Label: New Groups
+			Tooltip: ""
+		}
+
+		deleteme: {
+			Label: Delete Me
+			Tooltip: ""
+		}
+	}
+
+	Profile: {
+		Tooltip: ""
+
+		profilename: {
+			Label: Profile Name
+			Tooltip: ""
+		}
+
+		recipes: {
+			Label: Recipes
+			Tooltip: ""
+		}
+
+		groups: {
+			Label: Groups
+			Tooltip: ""
+		}
+
+		deleteme: {
+			Label: Delete Me
+			Tooltip: ""
+		}
+
+		disabledmods: {
+			Label: Disabled Mods
+			Tooltip: ""
+		}
+	}
+
+	RecipeDefinition: {
+		Tooltip: ""
+
+		result: {
+			Label: Crafted Item
+			Tooltip: ""
+		}
+
+		ingredients: {
+			Label: Ingredients
+			Tooltip: ""
+		}
+
+		workstations: {
+			Label: Workstations
+			Tooltip: ""
+		}
+
+		specialworkstations: {
+			Label: Special Workstaions
+			Tooltip: ""
+		}
+
+		conditions: {
+			Label: Conditions
+			Tooltip: ""
+		}
+
+		recipegroups: {
+			Label: Recipe Groups
+			Tooltip: ""
+		}
+
+		oncraftevents: {
+			Label: On Craft Events
+			Tooltip: ""
+		}
+
+		consumptionrules: {
+			Label: Consumption Rules
+			Tooltip: ""
+		}
+
+		disabled: {
+			Label: Disabled Recipe
+			Tooltip: ""
+		}
+
+		custom: {
+			Label: Custom Recipe
+			Tooltip: ""
+		}
+
+		deleteme: {
+			Label: Delete Me
+			Tooltip: ""
+		}
+	}
+
+	CraftedItemDef: {
+		Tooltip: ""
+
+		crafteditem: {
+			Label: Result
+			Tooltip: ""
+		}
+
+		amount: {
+			Label: Amount
+			Tooltip: ""
+		}
+	}
+
+	IngredientDefinition: {
+		Tooltip: ""
+
+		ingredient: {
+			Label: Ingredient
+			Tooltip: ""
+		}
+
+		amount: {
+			Label: Amount
+			Tooltip: ""
+		}
+	}
+
+	WorkstationDefinition: {
+		Tooltip: ""
+
+		workstation: {
+			Label: Workstation
+			Tooltip: ""
+		}
+	}
+
+	SpecialWorkstationsDef: {
+		Tooltip: ""
+
+		specialtile: {
+			Label: Special Workstations
+			Tooltip: ""
+		}
+	}
+
+	ConditionDef: {
+		Tooltip: ""
+
+		condition: {
+			Label: Condition
+			Tooltip: ""
+		}
+	}
+
+	GroupDef: {
+		Tooltip: ""
+
+		groupname: {
+			Label: Group Name
+			Tooltip: ""
+		}
+
+		amount: {
+			Label: Amount
+			Tooltip: ""
+		}
+	}
+
+	RecipeEdits: {
+		DisplayName: Legacy Recipe Edits
+
+		recipes: {
+			Label: New Recipes
+			Tooltip: ""
+		}
+	}
+
+	SettingsConfig: {
+		DisplayName: Settings Config
+
+		recipesharing: {
+			Label: Allow Recipe Sharing
+			Tooltip: ""
+		}
+
+		groupsharing: {
+			Label: Allow Group Sharing
+			Tooltip: ""
+		}
+
+		profilesharing: {
+			Label: Allow Profile Sharing
+			Tooltip: ""
+		}
+	}
+
+	NewGroupEdits: {
+		DisplayName: New Group Edits
+
+		groups: {
+			Label: Groups
+			Tooltip: ""
+		}
+	}
+
+	FakeGroup: {
+		Tooltip: ""
+
+		groupitems: {
+			Label: Group Items
+			Tooltip: ""
+		}
+
+		groupname: {
+			Label: Group Name
+			Tooltip: ""
+		}
+
+		grouptype: {
+			Label: Group Type
+			Tooltip: ""
+		}
+
+		status: {
+			Label: status
+			Tooltip: ""
+		}
+
+		currentstatus: {
+			Label: Status
+			Tooltip: ""
+		}
+	}
+
+	GroupType: {
+		Tooltip: ""
+		original.Label: Original
+		custom.Label: Custom
+		shared.Label: Shared
+	}
+
+	GroupStatus: {
+		Tooltip: ""
+		disabled.Label: Disabled
+		enabled.Label: Enabled
+		delete.Label: Delete
+	}
+
+	NewProfileConfig: {
+		DisplayName: New Profiles
+
+		profiles: {
+			Label: Profiles
+			Tooltip: ""
+		}
+	}
+
+	FakeRecipe: {
+		Tooltip: ""
+
+		result: {
+			Label: Result
+			Tooltip: ""
+		}
+
+		ingredients: {
+			Label: Ingredients
+			Tooltip: ""
+		}
+
+		workstations: {
+			Label: Workstations
+			Tooltip: ""
+		}
+
+		recipetype: {
+			Label: Recipe Type
+			Tooltip: ""
+		}
+
+		currentstatus: {
+			Label: Status
+			Tooltip: ""
+		}
+
+		conditions: {
+			Label: Conditions
+			Tooltip: ""
+		}
+
+		shimmerInfo: {
+			Tooltip: ""
+			Label: shimmer Info
+		}
+
+		craftEvents: {
+			Label: Craft Events
+			Tooltip: ""
+		}
+
+		itemRules: {
+			Label: Item Rules
+			Tooltip: ""
+		}
+
+		testworkstations: {
+			Label: testworkstations
+			Tooltip: ""
+		}
+	}
+
+	RecipeResult: {
+		Tooltip: ""
+
+		item: {
+			Label: Item
+			Tooltip: ""
+		}
+
+		stack: {
+			Label: Stack
+			Tooltip: ""
+		}
+	}
+
+	RecipeIngredient: {
+		Tooltip: ""
+
+		recipegroup: {
+			Label: Recipe Group
+			Tooltip: ""
+		}
+	}
+
+	RecipeWorkstation: {
+		Tooltip: ""
+
+		item: {
+			Label: Item
+			Tooltip: ""
+		}
+
+		tile: {
+			Label: Tile
+			Tooltip: ""
+		}
+
+		items: {
+			Tooltip: ""
+			Label: Items
+		}
+
+		wall: {
+			Tooltip: ""
+			Label: Wall
+		}
+
+		workstationtype: {
+			Label: Workstation Type
+			Tooltip: ""
+		}
+	}
+
+	RecipeType: {
+		Tooltip: ""
+		original.Label: Original
+		custom.Label: Custom
+		shared.Label: Shared
+	}
+
+	RecipeStatus: {
+		Tooltip: ""
+		enabled.Label: Enabled
+		disabled.Label: Disabled
+		delete.Label: Delete
+	}
+
+	NewRecipeEdits: {
+		DisplayName: New Recipe Edits
+
+		recipes: {
+			Label: Recipes
+			Tooltip: ""
+		}
+
+		walls: {
+			Label: walls
+			Tooltip: ""
+		}
+	}
+
+	RecipeCondition: {
+		Tooltip: ""
+
+		description: {
+			Label: Description
+			Tooltip: ""
+		}
+	}
+
+	RecipeShimmerInfo: {
+		conditions: {
+			Tooltip: ""
+			Label: Conditions
+		}
+
+		items: {
+			Tooltip: ""
+			Label: Items
+		}
+
+		Tooltip: ""
+	}
+
+	DisableRecipesByMod: {
+		mods: {
+			Tooltip: Will disable ALL recipes from the specified mods
+			Label: Mod Display Name
+		}
+
+		DisplayName: Disable Recipes By Mod
+	}
+
+	RecipeCraftEvent: {
+		Tooltip: ""
+
+		name: {
+			Label: Name
+			Tooltip: ""
+		}
+
+		description: {
+			Label: Description
+			Tooltip: ""
+		}
+	}
+
+	RecipeItemRule: {
+		Tooltip: ""
+
+		name: {
+			Label: Name
+			Tooltip: ""
+		}
+
+		description: {
+			Label: Description
+			Tooltip: ""
+		}
+	}
+
+	WallDefinition: {
+		Tooltip: ""
+
+		IsUnloaded: {
+			Label: Is Unloaded
+			Tooltip: ""
+		}
+
+		DisplayName: {
+			Label: Display Name
+			Tooltip: ""
+		}
+	}
+
+	Testworkstation: {
+		Tooltip: ""
+
+		workstation: {
+			Label: workstation
+			Tooltip: ""
+		}
+	}
+
+	WorkstationType: {
+		Tooltip: ""
+		wall.Label: Wall
+		tile.Label: Tile
+	}
+}

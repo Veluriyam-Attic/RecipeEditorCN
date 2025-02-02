@@ -1,0 +1,7 @@
+displayName = Recipe Editor汉化
+author = 虞悖
+version = 0.1
+modReferences = RecipeEditor
+dllReferences = TigerForceLocalizationLib
+side = Client
+translationMod = true
