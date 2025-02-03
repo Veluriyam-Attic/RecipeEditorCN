@@ -6,7 +6,7 @@ namespace RecipeEditorCN;
 
 public class RecipeEditorCN : Mod
 {
-    private static readonly bool firstRegister = true;
+    private static readonly bool firstRegister = false;
     public override void PostSetupContent()
     {
         if (firstRegister)

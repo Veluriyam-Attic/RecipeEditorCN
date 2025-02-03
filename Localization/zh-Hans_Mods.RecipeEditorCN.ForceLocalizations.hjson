@@ -1,143 +1,84 @@
-SimpleUILib: {
-	DropDownList: {
-		AddGridItems: {
-			1: {
-				// OldString: Close
-				// NewString: Close
-			}
-		}
-	}
-
-	FloatSlider: {
-		Update: {
-			1: {
-				// OldString: "0.00"
-				// NewString: "0.00"
-			}
-		}
-
-		*ctor: {
-			1: {
-				// OldString: "0.00"
-				// NewString: "0.00"
-			}
-		}
-	}
-
-	NewCheckbox: {
-		*ctor: {
-			1: {
-				// OldString: "   "
-				// NewString: "   "
-			}
-		}
-	}
-
-	NPCIcon: {
-		MouseOver: {
-			1: {
-				// OldString: " ("
-				// NewString: " ("
-			}
-
-			2: {
-				// OldString: )
-				// NewString: )
-			}
-		}
-	}
-
-	UICustomButton: {
-		*ctor: {
-			1: {
-				// OldString: ""
-				// NewString: ""
-			}
-		}
-	}
-}
-
 RecipeEditor: {
 	CallFunctions: {
 		Call: {
 			1: {
-				// OldString: An invalid mod name was detected in the call function. Check to make sure your first parameter is your mod instance
-				// NewString: An invalid mod name was detected in the call function. Check to make sure your first parameter is your mod instance
+				OldString: An invalid mod name was detected in the call function. Check to make sure your first parameter is your mod instance
+				NewString: An invalid mod name was detected in the call function. Check to make sure your first parameter is your mod instance
 			}
 
 			2: {
-				// OldString: An invalid value type from mod '
-				// NewString: An invalid value type from mod '
+				OldString: An invalid value type from mod '
+				NewString: An invalid value type from mod '
 			}
 
 			3: {
-				// OldString: "' was detected in the call function. Check to make sure your second parameter is a string"
-				// NewString: "' was detected in the call function. Check to make sure your second parameter is a string"
+				OldString: "' was detected in the call function. Check to make sure your second parameter is a string"
+				NewString: "' was detected in the call function. Check to make sure your second parameter is a string"
 			}
 
 			4: {
-				// OldString: AddConditions
-				// NewString: AddConditions
+				OldString: AddConditions
+				NewString: AddConditions
 			}
 
 			5: {
-				// OldString: AddOnCraftEvent
-				// NewString: AddOnCraftEvent
+				OldString: AddOnCraftEvent
+				NewString: AddOnCraftEvent
 			}
 
 			6: {
-				// OldString: AddConsumptionRule
-				// NewString: AddConsumptionRule
+				OldString: AddConsumptionRule
+				NewString: AddConsumptionRule
 			}
 
 			7: {
-				// OldString: "' was detected in the call function. Check to make sure your third parameter is of type List<Condition>"
-				// NewString: "' was detected in the call function. Check to make sure your third parameter is of type List<Condition>"
+				OldString: "' was detected in the call function. Check to make sure your third parameter is of type List<Condition>"
+				NewString: "' was detected in the call function. Check to make sure your third parameter is of type List<Condition>"
 			}
 
 			8: {
-				// OldString: "' was detected in the call function. Check to make sure your third parameter is of type Recipe.OnCraftCallback or of type Action"
-				// NewString: "' was detected in the call function. Check to make sure your third parameter is of type Recipe.OnCraftCallback or of type Action"
+				OldString: "' was detected in the call function. Check to make sure your third parameter is of type Recipe.OnCraftCallback or of type Action"
+				NewString: "' was detected in the call function. Check to make sure your third parameter is of type Recipe.OnCraftCallback or of type Action"
 			}
 
 			9: {
-				// OldString: "' was detected in the call function. Check to make sure your fourth parameter is a string"
-				// NewString: "' was detected in the call function. Check to make sure your fourth parameter is a string"
+				OldString: "' was detected in the call function. Check to make sure your fourth parameter is a string"
+				NewString: "' was detected in the call function. Check to make sure your fourth parameter is a string"
 			}
 
 			10: {
-				// OldString: "' was detected in the call function. Check to make sure your fifth parameter is a string"
-				// NewString: "' was detected in the call function. Check to make sure your fifth parameter is a string"
+				OldString: "' was detected in the call function. Check to make sure your fifth parameter is a string"
+				NewString: "' was detected in the call function. Check to make sure your fifth parameter is a string"
 			}
 
 			11: {
-				// OldString: An invalid value type from '
-				// NewString: An invalid value type from '
+				OldString: An invalid value type from '
+				NewString: An invalid value type from '
 			}
 
 			12: {
-				// OldString: "' was detected in the call function. Check to make sure your sixth parameter is a boolean"
-				// NewString: "' was detected in the call function. Check to make sure your sixth parameter is a boolean"
+				OldString: "' was detected in the call function. Check to make sure your sixth parameter is a boolean"
+				NewString: "' was detected in the call function. Check to make sure your sixth parameter is a boolean"
 			}
 
 			13: {
-				// OldString: The function AddOnCraftEvent was called but no event was added. Double check your parameters are correct and try again
-				// NewString: The function AddOnCraftEvent was called but no event was added. Double check your parameters are correct and try again
+				OldString: The function AddOnCraftEvent was called but no event was added. Double check your parameters are correct and try again
+				NewString: The function AddOnCraftEvent was called but no event was added. Double check your parameters are correct and try again
 			}
 
 			14: {
-				// OldString: "' was detected in the call function. Check to make sure your third parameter is of type Recipe.ConsumeItemCallback"
-				// NewString: "' was detected in the call function. Check to make sure your third parameter is of type Recipe.ConsumeItemCallback"
+				OldString: "' was detected in the call function. Check to make sure your third parameter is of type Recipe.ConsumeItemCallback"
+				NewString: "' was detected in the call function. Check to make sure your third parameter is of type Recipe.ConsumeItemCallback"
 			}
 
 			15: {
-				// OldString: An invalid function was called from mod '
-				// NewString: An invalid function was called from mod '
+				OldString: An invalid function was called from mod '
+				NewString: An invalid function was called from mod '
 			}
 
 			16: {
-				// OldString: "'. Check to make sure you typed the function name correctly"
-				// NewString: "'. Check to make sure you typed the function name correctly"
+				OldString: "'. Check to make sure you typed the function name correctly"
+				NewString: "'. Check to make sure you typed the function name correctly"
 			}
 		}
 	}
@@ -145,69 +86,69 @@ RecipeEditor: {
 	ChatCommands: {
 		get_Command: {
 			1: {
-				// OldString: CheckConfigSize
-				// NewString: CheckConfigSize
+				OldString: CheckConfigSize
+				NewString: CheckConfigSize
 			}
 		}
 
 		Action: {
 			1: {
-				// OldString: all
-				// NewString: all
+				OldString: all
+				NewString: all
 			}
 		}
 
 		CheckConfigs: {
 			1: {
-				// OldString: all
-				// NewString: all
+				OldString: all
+				NewString: all
 			}
 
 			2: {
-				// OldString: NewRecipeEdits
-				// NewString: NewRecipeEdits
+				OldString: NewRecipeEdits
+				NewString: NewRecipeEdits
 			}
 
 			3: {
-				// OldString: NewGroupEdits
-				// NewString: NewGroupEdits
+				OldString: NewGroupEdits
+				NewString: NewGroupEdits
 			}
 
 			4: {
-				// OldString: DisableRecipesByMod
-				// NewString: DisableRecipesByMod
+				OldString: DisableRecipesByMod
+				NewString: DisableRecipesByMod
 			}
 		}
 
 		CheckConfigSize: {
 			1: {
-				// OldString: RecipeEditor_
-				// NewString: RecipeEditor_
+				OldString: RecipeEditor_
+				NewString: RecipeEditor_
 			}
 
 			2: {
-				// OldString: .json
-				// NewString: .json
+				OldString: .json
+				NewString: .json
 			}
 
 			3: {
-				// OldString: " config size '"
-				// NewString: " config size '"
+				OldString: " config size '"
+				NewString: " config size '"
 			}
 
 			4: {
-				// OldString: N0
-				// NewString: N0
+				OldString: N0
+				NewString: N0
 			}
 
 			5: {
-				// OldString: kb' exceeds the limit of 65kb
-				// NewString: kb' exceeds the limit of 65kb
+				OldString: kb' exceeds the limit of 65kb
+				NewString: kb' exceeds the limit of 65kb
 			}
 
 			6: {
-				// OldString: kb' is under the 65kb limit
-				// NewString: kb' is under the 65kb limit
+				OldString: kb' is under the 65kb limit
+				NewString: kb' is under the 65kb limit
 			}
 		}
 	}
@@ -215,25 +156,25 @@ RecipeEditor: {
 	CrossModManager: {
 		AddCrossModCraftEventInternal: {
 			1: {
-				// OldString: The craft event '
-				// NewString: The craft event '
+				OldString: The craft event '
+				NewString: The craft event '
 			}
 
 			2: {
-				// OldString: "' already exists! Rename your craft event and try again"
-				// NewString: "' already exists! Rename your craft event and try again"
+				OldString: "' already exists! Rename your craft event and try again"
+				NewString: "' already exists! Rename your craft event and try again"
 			}
 		}
 
 		AddCrossModItemRuleInternal: {
 			1: {
-				// OldString: The item consumption rule '
-				// NewString: The item consumption rule '
+				OldString: The item consumption rule '
+				NewString: The item consumption rule '
 			}
 
 			2: {
-				// OldString: "' already exists! Rename your item consumption rule and try again"
-				// NewString: "' already exists! Rename your item consumption rule and try again"
+				OldString: "' already exists! Rename your item consumption rule and try again"
+				NewString: "' already exists! Rename your item consumption rule and try again"
 			}
 		}
 	}
@@ -241,23 +182,23 @@ RecipeEditor: {
 	PacketManager: {
 		HandlePacket: {
 			1: {
-				// OldString: Receiving new profile from player '
-				// NewString: Receiving new profile from player '
+				OldString: Receiving new profile from player '
+				NewString: Receiving new profile from player '
 			}
 
 			2: {
-				// OldString: "'"
-				// NewString: "'"
+				OldString: "'"
+				NewString: "'"
 			}
 
 			3: {
-				// OldString: Received new recipe group from player '
-				// NewString: Received new recipe group from player '
+				OldString: Received new recipe group from player '
+				NewString: Received new recipe group from player '
 			}
 
 			4: {
-				// OldString: Received new recipe from player '
-				// NewString: Received new recipe from player '
+				OldString: Received new recipe from player '
+				NewString: Received new recipe from player '
 			}
 		}
 	}
@@ -265,8 +206,8 @@ RecipeEditor: {
 	RecipeEditor: {
 		IL_Recipe_SetupRecipes: {
 			1: {
-				// OldString: Failed to find post add recipes insertion point.
-				// NewString: Failed to find post add recipes insertion point.
+				OldString: Failed to find post add recipes insertion point.
+				NewString: Failed to find post add recipes insertion point.
 			}
 		}
 	}
@@ -274,109 +215,109 @@ RecipeEditor: {
 	RecipeSystem: {
 		RegisterCustomGroups: {
 			1: {
-				// OldString: Recipe group at index '
-				// NewString: Recipe group at index '
+				OldString: Recipe group at index '
+				NewString: Recipe group at index '
 			}
 
 			2: {
-				// OldString: "' failed its safety check with the following errors:"
-				// NewString: "' failed its safety check with the following errors:"
+				OldString: "' failed its safety check with the following errors:"
+				NewString: "' failed its safety check with the following errors:"
 			}
 
 			3: {
-				// OldString: This recipe group will be skipped
-				// NewString: This recipe group will be skipped
+				OldString: This recipe group will be skipped
+				NewString: This recipe group will be skipped
 			}
 
 			4: {
-				// OldString: Skipping '
-				// NewString: Skipping '
+				OldString: Skipping '
+				NewString: Skipping '
 			}
 
 			5: {
-				// OldString: "' recipe group(s) due to failed safety checks"
-				// NewString: "' recipe group(s) due to failed safety checks"
+				OldString: "' recipe group(s) due to failed safety checks"
+				NewString: "' recipe group(s) due to failed safety checks"
 			}
 
 			6: {
-				// OldString: Successfully registered '
-				// NewString: Successfully registered '
+				OldString: Successfully registered '
+				NewString: Successfully registered '
 			}
 
 			7: {
-				// OldString: "' new recipe group(s)"
-				// NewString: "' new recipe group(s)"
+				OldString: "' new recipe group(s)"
+				NewString: "' new recipe group(s)"
 			}
 		}
 
 		RegisterCustomRecipes: {
 			1: {
-				// OldString: Skipping '
-				// NewString: Skipping '
+				OldString: Skipping '
+				NewString: Skipping '
 			}
 
 			2: {
-				// OldString: "' recipe(s) due to failed safety checks"
-				// NewString: "' recipe(s) due to failed safety checks"
+				OldString: "' recipe(s) due to failed safety checks"
+				NewString: "' recipe(s) due to failed safety checks"
 			}
 
 			3: {
-				// OldString: Successfully registered '
-				// NewString: Successfully registered '
+				OldString: Successfully registered '
+				NewString: Successfully registered '
 			}
 
 			4: {
-				// OldString: "' new recipe(s)"
-				// NewString: "' new recipe(s)"
+				OldString: "' new recipe(s)"
+				NewString: "' new recipe(s)"
 			}
 		}
 
 		IsRecipeSafe: {
 			1: {
-				// OldString: Recipe at index '
-				// NewString: Recipe at index '
+				OldString: Recipe at index '
+				NewString: Recipe at index '
 			}
 
 			2: {
-				// OldString: "' failed its safety check with the following errors:"
-				// NewString: "' failed its safety check with the following errors:"
+				OldString: "' failed its safety check with the following errors:"
+				NewString: "' failed its safety check with the following errors:"
 			}
 
 			3: {
-				// OldString: This recipe will be skipped
-				// NewString: This recipe will be skipped
+				OldString: This recipe will be skipped
+				NewString: This recipe will be skipped
 			}
 		}
 
 		DisableRecipes: {
 			1: {
-				// OldString: Successfully disabled recipe '
-				// NewString: Successfully disabled recipe '
+				OldString: Successfully disabled recipe '
+				NewString: Successfully disabled recipe '
 			}
 
 			2: {
-				// OldString: "'"
-				// NewString: "'"
+				OldString: "'"
+				NewString: "'"
 			}
 
 			3: {
-				// OldString: Failed to find and disable recipe at index '
-				// NewString: Failed to find and disable recipe at index '
+				OldString: Failed to find and disable recipe at index '
+				NewString: Failed to find and disable recipe at index '
 			}
 
 			4: {
-				// OldString: Disabling all recipes from mod '
-				// NewString: Disabling all recipes from mod '
+				OldString: Disabling all recipes from mod '
+				NewString: Disabling all recipes from mod '
 			}
 
 			5: {
-				// OldString: Successfully disabled '
-				// NewString: Successfully disabled '
+				OldString: Successfully disabled '
+				NewString: Successfully disabled '
 			}
 
 			6: {
-				// OldString: "' recipes from mod '"
-				// NewString: "' recipes from mod '"
+				OldString: "' recipes from mod '"
+				NewString: "' recipes from mod '"
 			}
 		}
 	}
@@ -384,42 +325,30 @@ RecipeEditor: {
 	WallDefinition: {
 		get_IsUnloaded: {
 			1: {
-				// OldString: Terraria
-				// NewString: Terraria
+				OldString: Terraria
+				NewString: Terraria
 			}
 
 			2: {
-				// OldString: None
-				// NewString: None
+				OldString: None
+				NewString: None
 			}
 
 			3: {
-				// OldString: ""
-				// NewString: ""
+				OldString: ""
+				NewString: ""
 			}
 		}
 
 		get_Type: {
 			1: {
-				// OldString: Terraria
-				// NewString: Terraria
+				OldString: Terraria
+				NewString: Terraria
 			}
 
 			2: {
-				// OldString: /
-				// NewString: /
-			}
-		}
-
-		get_DisplayName: {
-			1: {
-				// OldString: ''' "'''
-				// NewString: ''' "'''
-			}
-
-			2: {
-				// OldString: '''"'''
-				// NewString: '''"'''
+				OldString: /
+				NewString: /
 			}
 		}
 	}
@@ -429,13 +358,8 @@ RecipeEditor: {
 			TutorialMain: {
 				*ctor: {
 					1: {
-						// OldString: "0"
-						// NewString: "0"
-					}
-
-					2: {
-						// OldString: UI/Tutorial/Images/Recipe Editor 0.1.7 Guide-
-						// NewString: UI/Tutorial/Images/Recipe Editor 0.1.7 Guide-
+						OldString: "0"
+						NewString: "0"
 					}
 				}
 			}
@@ -443,110 +367,110 @@ RecipeEditor: {
 			TutorialNavigator: {
 				OnInitialize: {
 					1: {
-						// OldString: Help navigator
-						// NewString: Help navigator
+						OldString: Help navigator
+						NewString: Help navigator
 					}
 
 					2: {
-						// OldString: Search help
-						// NewString: Search help
+						OldString: Search help
+						NewString: Search help
 					}
 
 					3: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				GetHelp: {
 					1: {
-						// OldString: Using the Recipe Editor
-						// NewString: Using the Recipe Editor
+						OldString: Using the Recipe Editor
+						NewString: Using the Recipe Editor
 					}
 
 					2: {
-						// OldString: Creating a recipe
-						// NewString: Creating a recipe
+						OldString: Creating a recipe
+						NewString: Creating a recipe
 					}
 
 					3: {
-						// OldString: Disabling/Enabling recipes
-						// NewString: Disabling/Enabling recipes
+						OldString: Disabling/Enabling recipes
+						NewString: Disabling/Enabling recipes
 					}
 
 					4: {
-						// OldString: Deleting recipes
-						// NewString: Deleting recipes
+						OldString: Deleting recipes
+						NewString: Deleting recipes
 					}
 
 					5: {
-						// OldString: Recipe types
-						// NewString: Recipe types
+						OldString: Recipe types
+						NewString: Recipe types
 					}
 
 					6: {
-						// OldString: Using the Group Editor
-						// NewString: Using the Group Editor
+						OldString: Using the Group Editor
+						NewString: Using the Group Editor
 					}
 
 					7: {
-						// OldString: Creating a recipe group
-						// NewString: Creating a recipe group
+						OldString: Creating a recipe group
+						NewString: Creating a recipe group
 					}
 
 					8: {
-						// OldString: Disabling/Enabling groups
-						// NewString: Disabling/Enabling groups
+						OldString: Disabling/Enabling groups
+						NewString: Disabling/Enabling groups
 					}
 
 					9: {
-						// OldString: Deleting recipe groups
-						// NewString: Deleting recipe groups
+						OldString: Deleting recipe groups
+						NewString: Deleting recipe groups
 					}
 
 					10: {
-						// OldString: Recipe group types
-						// NewString: Recipe group types
+						OldString: Recipe group types
+						NewString: Recipe group types
 					}
 
 					11: {
-						// OldString: Using the Profile Editor
-						// NewString: Using the Profile Editor
+						OldString: Using the Profile Editor
+						NewString: Using the Profile Editor
 					}
 
 					12: {
-						// OldString: Creating a profile
-						// NewString: Creating a profile
+						OldString: Creating a profile
+						NewString: Creating a profile
 					}
 
 					13: {
-						// OldString: Converting old profiles
-						// NewString: Converting old profiles
+						OldString: Converting old profiles
+						NewString: Converting old profiles
 					}
 
 					14: {
-						// OldString: Profile options
-						// NewString: Profile options
+						OldString: Profile options
+						NewString: Profile options
 					}
 
 					15: {
-						// OldString: Integrate with recipe editor
-						// NewString: Integrate with recipe editor
+						OldString: Integrate with recipe editor
+						NewString: Integrate with recipe editor
 					}
 
 					16: {
-						// OldString: Add custom conditions
-						// NewString: Add custom conditions
+						OldString: Add custom conditions
+						NewString: Add custom conditions
 					}
 
 					17: {
-						// OldString: Add custom events
-						// NewString: Add custom events
+						OldString: Add custom events
+						NewString: Add custom events
 					}
 
 					18: {
-						// OldString: Add custom rules
-						// NewString: Add custom rules
+						OldString: Add custom rules
+						NewString: Add custom rules
 					}
 				}
 			}
@@ -554,8 +478,8 @@ RecipeEditor: {
 			TutorialNavigator+<>c: {
 				<OnInitialize>b__4_1: {
 					1: {
-						// OldString: https://docs.google.com/document/d/14pxcOxt4Wc_SjcYJQjA9_qno-HXIkdujvCjMRxOfMWU/edit?usp=sharing
-						// NewString: https://docs.google.com/document/d/14pxcOxt4Wc_SjcYJQjA9_qno-HXIkdujvCjMRxOfMWU/edit?usp=sharing
+						OldString: https://docs.google.com/document/d/14pxcOxt4Wc_SjcYJQjA9_qno-HXIkdujvCjMRxOfMWU/edit?usp=sharing
+						NewString: https://docs.google.com/document/d/14pxcOxt4Wc_SjcYJQjA9_qno-HXIkdujvCjMRxOfMWU/edit?usp=sharing
 					}
 				}
 			}
@@ -563,8 +487,8 @@ RecipeEditor: {
 			TutorialNavigator+<>c__DisplayClass4_0: {
 				<OnInitialize>b__2: {
 					1: {
-						// OldString: Open in browser
-						// NewString: Open in browser
+						OldString: Open in browser
+						NewString: Open in browser
 					}
 				}
 			}
@@ -574,59 +498,45 @@ RecipeEditor: {
 			AddConditionsGrid: {
 				OnInitialize: {
 					1: {
-						// OldString: Showing 0/0 conditions
-						// NewString: Showing 0/0 conditions
+						OldString: Showing 0/0 conditions
+						NewString: Showing 0/0 conditions
 					}
 
 					2: {
-						// OldString: Search conditions
-						// NewString: Search conditions
+						OldString: Search conditions
+						NewString: Search conditions
 					}
 
 					3: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					4: {
-						// OldString: Add selected
-						// NewString: Add selected
+						OldString: Add selected
+						NewString: Add selected
 					}
 
 					5: {
-						// OldString: Close
-						// NewString: Close
+						OldString: Close
+						NewString: Close
 					}
 				}
 
 				SearchConditions: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " conditons"
-						// NewString: " conditons"
-					}
-				}
-
-				<OnInitialize>b__7_1: {
-					1: {
-						// OldString: ""
-						// NewString: ""
-					}
-				}
-
-				*ctor: {
-					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: " conditons"
+						NewString: " conditons"
 					}
 				}
 			}
@@ -634,72 +544,72 @@ RecipeEditor: {
 			AddEventsAndRulesGrid: {
 				SearchCraftEvents: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " craft events"
-						// NewString: " craft events"
+						OldString: " craft events"
+						NewString: " craft events"
 					}
 				}
 
 				SearchItemRules: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " item rules"
-						// NewString: " item rules"
+						OldString: " item rules"
+						NewString: " item rules"
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: item rules
-						// NewString: item rules
+						OldString: item rules
+						NewString: item rules
 					}
 
 					2: {
-						// OldString: craft events
-						// NewString: craft events
+						OldString: craft events
+						NewString: craft events
 					}
 
 					3: {
-						// OldString: "Showing 0/0 "
-						// NewString: "Showing 0/0 "
+						OldString: "Showing 0/0 "
+						NewString: "Showing 0/0 "
 					}
 
 					4: {
-						// OldString: "Search "
-						// NewString: "Search "
+						OldString: "Search "
+						NewString: "Search "
 					}
 
 					5: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					6: {
-						// OldString: Add selected
-						// NewString: Add selected
+						OldString: Add selected
+						NewString: Add selected
 					}
 
 					7: {
-						// OldString: Close
-						// NewString: Close
+						OldString: Close
+						NewString: Close
 					}
 				}
 			}
@@ -707,87 +617,57 @@ RecipeEditor: {
 			AddRecipeGroupsGrid: {
 				OnInitialize: {
 					1: {
-						// OldString: Showing 0/0 groups
-						// NewString: Showing 0/0 groups
+						OldString: Showing 0/0 groups
+						NewString: Showing 0/0 groups
 					}
 
 					2: {
-						// OldString: Search groups
-						// NewString: Search groups
+						OldString: Search groups
+						NewString: Search groups
 					}
 
 					3: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					4: {
-						// OldString: Amount
-						// NewString: Amount
+						OldString: Amount
+						NewString: Amount
 					}
 
 					5: {
-						// OldString: Add selected
-						// NewString: Add selected
+						OldString: Add selected
+						NewString: Add selected
 					}
 
 					6: {
-						// OldString: Close
-						// NewString: Close
+						OldString: Close
+						NewString: Close
 					}
 				}
 
 				AddSelectedGroups: {
 					1: {
-						// OldString: Invalid amount
-						// NewString: Invalid amount
+						OldString: Invalid amount
+						NewString: Invalid amount
 					}
 				}
 
 				SearchGroups: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " recipe groups"
-						// NewString: " recipe groups"
-					}
-				}
-
-				<OnInitialize>b__8_1: {
-					1: {
-						// OldString: ""
-						// NewString: ""
-					}
-				}
-
-				*ctor: {
-					1: {
-						// OldString: ""
-						// NewString: ""
-					}
-				}
-			}
-
-			CraftEventCheckbox: {
-				MoveBack: {
-					1: {
-						// OldString: "   "
-						// NewString: "   "
-					}
-				}
-
-				MakeRoomForError: {
-					1: {
-						// OldString: "     "
-						// NewString: "     "
+						OldString: " recipe groups"
+						NewString: " recipe groups"
 					}
 				}
 			}
@@ -795,35 +675,35 @@ RecipeEditor: {
 			DisableModMenu: {
 				AddModToConfig: {
 					1: {
-						// OldString: DisableRecipesByMod
-						// NewString: DisableRecipesByMod
+						OldString: DisableRecipesByMod
+						NewString: DisableRecipesByMod
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Type the name of the mod you wish to disable ALL recipes from. These recipes will not show in the editor.
-						// NewString: Type the name of the mod you wish to disable ALL recipes from. These recipes will not show in the editor.
+						OldString: Type the name of the mod you wish to disable ALL recipes from. These recipes will not show in the editor.
+						NewString: Type the name of the mod you wish to disable ALL recipes from. These recipes will not show in the editor.
 					}
 
 					2: {
-						// OldString: mod name
-						// NewString: mod name
+						OldString: mod name
+						NewString: mod name
 					}
 
 					3: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					4: {
-						// OldString: Add
-						// NewString: Add
+						OldString: Add
+						NewString: Add
 					}
 
 					5: {
-						// OldString: Close
-						// NewString: Close
+						OldString: Close
+						NewString: Close
 					}
 				}
 			}
@@ -831,32 +711,32 @@ RecipeEditor: {
 			EventAndRuleDescriptionWindow: {
 				OnInitialize: {
 					1: {
-						// OldString: Close
-						// NewString: Close
+						OldString: Close
+						NewString: Close
 					}
 				}
 
 				*ctor_RecipeItemRule: {
 					1: {
-						// OldString: "Item rule: "
-						// NewString: "Item rule: "
+						OldString: "Item rule: "
+						NewString: "Item rule: "
 					}
 
 					2: {
-						// OldString: Unknown item rule
-						// NewString: Unknown item rule
+						OldString: Unknown item rule
+						NewString: Unknown item rule
 					}
 				}
 
 				*ctor_RecipeCraftEvent: {
 					1: {
-						// OldString: "Craft event: "
-						// NewString: "Craft event: "
+						OldString: "Craft event: "
+						NewString: "Craft event: "
 					}
 
 					2: {
-						// OldString: Unknown craft event
-						// NewString: Unknown craft event
+						OldString: Unknown craft event
+						NewString: Unknown craft event
 					}
 				}
 			}
@@ -864,51 +744,35 @@ RecipeEditor: {
 			EventsAndRulesGrid: {
 				UpdateText: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: " events & "
-						// NewString: " events & "
+						OldString: " events & "
+						NewString: " events & "
 					}
 
 					3: {
-						// OldString: " rules"
-						// NewString: " rules"
+						OldString: " rules"
+						NewString: " rules"
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Showing 0 events & 0 rules
-						// NewString: Showing 0 events & 0 rules
+						OldString: Showing 0 events & 0 rules
+						NewString: Showing 0 events & 0 rules
 					}
 
 					2: {
-						// OldString: Add Event
-						// NewString: Add Event
+						OldString: Add Event
+						NewString: Add Event
 					}
 
 					3: {
-						// OldString: Add Item Rule
-						// NewString: Add Item Rule
-					}
-				}
-			}
-
-			ItemRuleCheckbox: {
-				MoveBack: {
-					1: {
-						// OldString: "   "
-						// NewString: "   "
-					}
-				}
-
-				MakeRoomForError: {
-					1: {
-						// OldString: "     "
-						// NewString: "     "
+						OldString: Add Item Rule
+						NewString: Add Item Rule
 					}
 				}
 			}
@@ -916,39 +780,23 @@ RecipeEditor: {
 			RecipeButtonGrid: {
 				*ctor: {
 					1: {
-						// OldString: New
-						// NewString: New
+						OldString: New
+						NewString: New
 					}
 
 					2: {
-						// OldString: Finish
-						// NewString: Finish
+						OldString: Finish
+						NewString: Finish
 					}
 
 					3: {
-						// OldString: Shimmer
-						// NewString: Shimmer
+						OldString: Shimmer
+						NewString: Shimmer
 					}
 
 					4: {
-						// OldString: Close
-						// NewString: Close
-					}
-				}
-			}
-
-			RecipeConditionCheckbox: {
-				MoveBack: {
-					1: {
-						// OldString: "   "
-						// NewString: "   "
-					}
-				}
-
-				MakeRoomForError: {
-					1: {
-						// OldString: "     "
-						// NewString: "     "
+						OldString: Close
+						NewString: Close
 					}
 				}
 			}
@@ -956,142 +804,129 @@ RecipeEditor: {
 			RecipeConditionsGrid: {
 				UpdateCount: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: " conditions"
-						// NewString: " conditions"
+						OldString: " conditions"
+						NewString: " conditions"
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Showing 0 conditions
-						// NewString: Showing 0 conditions
+						OldString: Showing 0 conditions
+						NewString: Showing 0 conditions
 					}
 
 					2: {
-						// OldString: Add
-						// NewString: Add
+						OldString: Add
+						NewString: Add
 					}
 				}
 			}
 
 			RecipeDetailsGrid: {
-				AddIngredient_Int32_Int32: {
-					1: {
-						// OldString: ""
-						// NewString: ""
-					}
-				}
-
-				AddIngredient_Item: {
-					1: {
-						// OldString: ""
-						// NewString: ""
-					}
-				}
 
 				GetRecipe: {
 					1: {
-						// OldString: Crafted item not set!
-						// NewString: Crafted item not set!
+						OldString: Crafted item not set!
+						NewString: Crafted item not set!
 					}
 				}
 
 				GetWorkstationOptions: {
 					1: {
-						// OldString: View full texture
-						// NewString: View full texture
+						OldString: View full texture
+						NewString: View full texture
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: View identical tiles
-						// NewString: View identical tiles
+						OldString: View identical tiles
+						NewString: View identical tiles
 					}
 				}
 
 				GetIngredientOptions: {
 					1: {
-						// OldString: Remove recipe group
-						// NewString: Remove recipe group
+						OldString: Remove recipe group
+						NewString: Remove recipe group
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: View recipe group items
-						// NewString: View recipe group items
+						OldString: View recipe group items
+						NewString: View recipe group items
 					}
 				}
 
 				GetItemOptions: {
 					1: {
-						// OldString: Change amount
-						// NewString: Change amount
+						OldString: Change amount
+						NewString: Change amount
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				GetGeneralOptions: {
 					1: {
-						// OldString: Remove item
-						// NewString: Remove item
+						OldString: Remove item
+						NewString: Remove item
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: View errors
-						// NewString: View errors
+						OldString: View errors
+						NewString: View errors
 					}
 				}
 
 				RemoveRecipeGroupFromItem_RecipeIngredientSlot: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				RemoveRecipeGroupFromItem_String: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Ingredients:
-						// NewString: Ingredients:
+						OldString: Ingredients:
+						NewString: Ingredients:
 					}
 
 					2: {
-						// OldString: Workstations:
-						// NewString: Workstations:
+						OldString: Workstations:
+						NewString: Workstations:
 					}
 
 					3: {
-						// OldString: Crafted item:
-						// NewString: Crafted item:
+						OldString: Crafted item:
+						NewString: Crafted item:
 					}
 				}
 			}
@@ -1099,18 +934,18 @@ RecipeEditor: {
 			RecipeEditMain: {
 				AddWorkStationOptions: {
 					1: {
-						// OldString: Add workstation
-						// NewString: Add workstation
+						OldString: Add workstation
+						NewString: Add workstation
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: View full texture
-						// NewString: View full texture
+						OldString: View full texture
+						NewString: View full texture
 					}
 				}
 			}
@@ -1118,38 +953,38 @@ RecipeEditor: {
 			RecipeFilter: {
 				GetFilters: {
 					1: {
-						// OldString: Custom recipe
-						// NewString: Custom recipe
+						OldString: Custom recipe
+						NewString: Custom recipe
 					}
 
 					2: {
-						// OldString: Vanilla recipe
-						// NewString: Vanilla recipe
+						OldString: Vanilla recipe
+						NewString: Vanilla recipe
 					}
 
 					3: {
-						// OldString: Modded recipe
-						// NewString: Modded recipe
+						OldString: Modded recipe
+						NewString: Modded recipe
 					}
 
 					4: {
-						// OldString: Disabled recipe
-						// NewString: Disabled recipe
+						OldString: Disabled recipe
+						NewString: Disabled recipe
 					}
 
 					5: {
-						// OldString: Enabled recipe
-						// NewString: Enabled recipe
+						OldString: Enabled recipe
+						NewString: Enabled recipe
 					}
 
 					6: {
-						// OldString: Broken recipe
-						// NewString: Broken recipe
+						OldString: Broken recipe
+						NewString: Broken recipe
 					}
 
 					7: {
-						// OldString: All recipes
-						// NewString: All recipes
+						OldString: All recipes
+						NewString: All recipes
 					}
 				}
 			}
@@ -1157,84 +992,74 @@ RecipeEditor: {
 			RecipeGrid: {
 				SearchRecipes: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " recipes"
-						// NewString: " recipes"
+						OldString: " recipes"
+						NewString: " recipes"
 					}
 				}
 
 				GetRecipeOptions: {
 					1: {
-						// OldString: Disable
-						// NewString: Disable
+						OldString: Disable
+						NewString: Disable
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: Delete
-						// NewString: Delete
+						OldString: Delete
+						NewString: Delete
 					}
 
 					4: {
-						// OldString: View errors
-						// NewString: View errors
+						OldString: View errors
+						NewString: View errors
 					}
 
 					5: {
-						// OldString: Print mod name
-						// NewString: Print mod name
+						OldString: Print mod name
+						NewString: Print mod name
 					}
 
 					6: {
-						// OldString: Share
-						// NewString: Share
+						OldString: Share
+						NewString: Share
 					}
 
 					7: {
-						// OldString: Disable this mod's recipes
-						// NewString: Disable this mod's recipes
+						OldString: Disable this mod's recipes
+						NewString: Disable this mod's recipes
 					}
 				}
 
 				<*ctor>b__11_9: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Showing 0/0 recipes
-						// NewString: Showing 0/0 recipes
+						OldString: Showing 0/0 recipes
+						NewString: Showing 0/0 recipes
 					}
 
 					2: {
-						// OldString: Search recipes
-						// NewString: Search recipes
-					}
-
-					3: {
-						// OldString: ""
-						// NewString: ""
-					}
-
-					4: {
-						// OldString: ...
-						// NewString: ...
+						OldString: Search recipes
+						NewString: Search recipes
 					}
 				}
 			}
@@ -1242,28 +1067,28 @@ RecipeEditor: {
 			RecipeGroupItemsPopupGrid: {
 				*ctor: {
 					1: {
-						// OldString: ": "
-						// NewString: ": "
+						OldString: ": "
+						NewString: ": "
 					}
 
 					2: {
-						// OldString: " items"
-						// NewString: " items"
+						OldString: " items"
+						NewString: " items"
 					}
 
 					3: {
-						// OldString: Search items
-						// NewString: Search items
+						OldString: Search items
+						NewString: Search items
 					}
 
 					4: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					5: {
-						// OldString: Close
-						// NewString: Close
+						OldString: Close
+						NewString: Close
 					}
 				}
 			}
@@ -1271,25 +1096,25 @@ RecipeEditor: {
 			RecipeGroupsGrid: {
 				UpdateCount: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: " recipe groups"
-						// NewString: " recipe groups"
+						OldString: " recipe groups"
+						NewString: " recipe groups"
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Showing 0 recipe groups
-						// NewString: Showing 0 recipe groups
+						OldString: Showing 0 recipe groups
+						NewString: Showing 0 recipe groups
 					}
 
 					2: {
-						// OldString: Add
-						// NewString: Add
+						OldString: Add
+						NewString: Add
 					}
 				}
 			}
@@ -1297,37 +1122,37 @@ RecipeEditor: {
 			RecipeIngredientSlot: {
 				Draw: {
 					1: {
-						// OldString: " ["
-						// NewString: " ["
+						OldString: " ["
+						NewString: " ["
 					}
 
 					2: {
-						// OldString: "] (Unloaded)"
-						// NewString: "] (Unloaded)"
+						OldString: "] (Unloaded)"
+						NewString: "] (Unloaded)"
 					}
 				}
 
 				CycleGroupItems: {
 					1: {
-						// OldString: " ["
-						// NewString: " ["
+						OldString: " ["
+						NewString: " ["
 					}
 
 					2: {
-						// OldString: "] (Unloaded)"
-						// NewString: "] (Unloaded)"
+						OldString: "] (Unloaded)"
+						NewString: "] (Unloaded)"
 					}
 				}
 
 				*ctor_RecipeIngredient: {
 					1: {
-						// OldString: " ["
-						// NewString: " ["
+						OldString: " ["
+						NewString: " ["
 					}
 
 					2: {
-						// OldString: "] (Unloaded)"
-						// NewString: "] (Unloaded)"
+						OldString: "] (Unloaded)"
+						NewString: "] (Unloaded)"
 					}
 				}
 			}
@@ -1335,13 +1160,13 @@ RecipeEditor: {
 			RecipeResultSlot: {
 				*ctor: {
 					1: {
-						// OldString: " ["
-						// NewString: " ["
+						OldString: " ["
+						NewString: " ["
 					}
 
 					2: {
-						// OldString: "] (Unloaded)"
-						// NewString: "] (Unloaded)"
+						OldString: "] (Unloaded)"
+						NewString: "] (Unloaded)"
 					}
 				}
 			}
@@ -1349,50 +1174,50 @@ RecipeEditor: {
 			RecipeSearchMethods: {
 				GetFilters: {
 					1: {
-						// OldString: Workstation
-						// NewString: Workstation
+						OldString: Workstation
+						NewString: Workstation
 					}
 
 					2: {
-						// OldString: Ingredient
-						// NewString: Ingredient
+						OldString: Ingredient
+						NewString: Ingredient
 					}
 
 					3: {
-						// OldString: Condition
-						// NewString: Condition
+						OldString: Condition
+						NewString: Condition
 					}
 
 					4: {
-						// OldString: Mod name
-						// NewString: Mod name
+						OldString: Mod name
+						NewString: Mod name
 					}
 
 					5: {
-						// OldString: Recipe group
-						// NewString: Recipe group
+						OldString: Recipe group
+						NewString: Recipe group
 					}
 
 					6: {
-						// OldString: Tool tip
-						// NewString: Tool tip
+						OldString: Tool tip
+						NewString: Tool tip
 					}
 
 					7: {
-						// OldString: Shimmer condition
-						// NewString: Shimmer condition
+						OldString: Shimmer condition
+						NewString: Shimmer condition
 					}
 
 					8: {
-						// OldString: Result
-						// NewString: Result
+						OldString: Result
+						NewString: Result
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 			}
@@ -1400,13 +1225,13 @@ RecipeEditor: {
 			RecipeWorkstationSlot: {
 				MouseOver: {
 					1: {
-						// OldString: " ["
-						// NewString: " ["
+						OldString: " ["
+						NewString: " ["
 					}
 
 					2: {
-						// OldString: "] (Unloaded)"
-						// NewString: "] (Unloaded)"
+						OldString: "] (Unloaded)"
+						NewString: "] (Unloaded)"
 					}
 				}
 			}
@@ -1414,45 +1239,45 @@ RecipeEditor: {
 			ShimmerDetailsGrid: {
 				UpdateCount: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: " items"
-						// NewString: " items"
+						OldString: " items"
+						NewString: " items"
 					}
 
 					3: {
-						// OldString: " conditions"
-						// NewString: " conditions"
+						OldString: " conditions"
+						NewString: " conditions"
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Decraftable
-						// NewString: Decraftable
+						OldString: Decraftable
+						NewString: Decraftable
 					}
 
 					2: {
-						// OldString: Showing 0 items
-						// NewString: Showing 0 items
+						OldString: Showing 0 items
+						NewString: Showing 0 items
 					}
 
 					3: {
-						// OldString: Showing 0 shimmer conditions
-						// NewString: Showing 0 shimmer conditions
+						OldString: Showing 0 shimmer conditions
+						NewString: Showing 0 shimmer conditions
 					}
 
 					4: {
-						// OldString: Close
-						// NewString: Close
+						OldString: Close
+						NewString: Close
 					}
 
 					5: {
-						// OldString: *Due to how Terraria handles shimmer behavior, this information can only be viewed and cannot be customized.
-						// NewString: *Due to how Terraria handles shimmer behavior, this information can only be viewed and cannot be customized.
+						OldString: *Due to how Terraria handles shimmer behavior, this information can only be viewed and cannot be customized.
+						NewString: *Due to how Terraria handles shimmer behavior, this information can only be viewed and cannot be customized.
 					}
 				}
 			}
@@ -1460,8 +1285,8 @@ RecipeEditor: {
 			AddEventsAndRulesGrid+<>c__DisplayClass10_0: {
 				<SearchCraftEvents>b__0: {
 					1: {
-						// OldString: " (right click for info)"
-						// NewString: " (right click for info)"
+						OldString: " (right click for info)"
+						NewString: " (right click for info)"
 					}
 				}
 			}
@@ -1469,8 +1294,8 @@ RecipeEditor: {
 			AddEventsAndRulesGrid+<>c__DisplayClass11_0: {
 				<SearchItemRules>b__0: {
 					1: {
-						// OldString: " (right click for info)"
-						// NewString: " (right click for info)"
+						OldString: " (right click for info)"
+						NewString: " (right click for info)"
 					}
 				}
 			}
@@ -1478,8 +1303,8 @@ RecipeEditor: {
 			AddEventsAndRulesGrid+<>c__DisplayClass6_0: {
 				<*ctor>b__1: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 			}
@@ -1487,13 +1312,13 @@ RecipeEditor: {
 			DisableModMenu+<>c__DisplayClass2_0: {
 				<*ctor>b__0: {
 					1: {
-						// OldString: Enter a mod name
-						// NewString: Enter a mod name
+						OldString: Enter a mod name
+						NewString: Enter a mod name
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 			}
@@ -1501,13 +1326,13 @@ RecipeEditor: {
 			EventsAndRulesGrid+<>c__DisplayClass11_0: {
 				<AddCraftEvent>b__1: {
 					1: {
-						// OldString: "Craft event: "
-						// NewString: "Craft event: "
+						OldString: "Craft event: "
+						NewString: "Craft event: "
 					}
 
 					2: {
-						// OldString: " (right click for info)"
-						// NewString: " (right click for info)"
+						OldString: " (right click for info)"
+						NewString: " (right click for info)"
 					}
 				}
 			}
@@ -1515,13 +1340,13 @@ RecipeEditor: {
 			EventsAndRulesGrid+<>c__DisplayClass12_0: {
 				<AddItemRule>b__1: {
 					1: {
-						// OldString: "Item rule: "
-						// NewString: "Item rule: "
+						OldString: "Item rule: "
+						NewString: "Item rule: "
 					}
 
 					2: {
-						// OldString: " (right click for info)"
-						// NewString: " (right click for info)"
+						OldString: " (right click for info)"
+						NewString: " (right click for info)"
 					}
 				}
 			}
@@ -1529,8 +1354,8 @@ RecipeEditor: {
 			RecipeDetailsGrid+<>c__DisplayClass15_0: {
 				<AddIngredient>b__1: {
 					1: {
-						// OldString: ingredient options
-						// NewString: ingredient options
+						OldString: ingredient options
+						NewString: ingredient options
 					}
 				}
 			}
@@ -1538,8 +1363,8 @@ RecipeEditor: {
 			RecipeDetailsGrid+<>c__DisplayClass19_0: {
 				<SetCraftedItem>b__1: {
 					1: {
-						// OldString: crafted item options
-						// NewString: crafted item options
+						OldString: crafted item options
+						NewString: crafted item options
 					}
 				}
 			}
@@ -1547,8 +1372,8 @@ RecipeEditor: {
 			RecipeDetailsGrid+<>c__DisplayClass26_0: {
 				<AddWorkstation>b__1: {
 					1: {
-						// OldString: workstation options
-						// NewString: workstation options
+						OldString: workstation options
+						NewString: workstation options
 					}
 				}
 			}
@@ -1556,8 +1381,8 @@ RecipeEditor: {
 			RecipeDetailsGrid+<>c__DisplayClass31_0: {
 				<GetWorkstationOptions>b__1: {
 					1: {
-						// OldString: Identical Workstations
-						// NewString: Identical Workstations
+						OldString: Identical Workstations
+						NewString: Identical Workstations
 					}
 				}
 			}
@@ -1565,45 +1390,45 @@ RecipeEditor: {
 			RecipeEditMain+<>c__DisplayClass0_0: {
 				<*ctor>b__1: {
 					1: {
-						// OldString: A reload is required before adding or editing any recipes
-						// NewString: A reload is required before adding or editing any recipes
+						OldString: A reload is required before adding or editing any recipes
+						NewString: A reload is required before adding or editing any recipes
 					}
 
 					2: {
-						// OldString: Successfully created new recipe
-						// NewString: Successfully created new recipe
+						OldString: Successfully created new recipe
+						NewString: Successfully created new recipe
 					}
 				}
 
 				<*ctor>b__6: {
 					1: {
-						// OldString: Set crafted item
-						// NewString: Set crafted item
+						OldString: Set crafted item
+						NewString: Set crafted item
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: Set crafted item (x)
-						// NewString: Set crafted item (x)
+						OldString: Set crafted item (x)
+						NewString: Set crafted item (x)
 					}
 
 					4: {
-						// OldString: Add ingredient
-						// NewString: Add ingredient
+						OldString: Add ingredient
+						NewString: Add ingredient
 					}
 
 					5: {
-						// OldString: Add ingredient (x)
-						// NewString: Add ingredient (x)
+						OldString: Add ingredient (x)
+						NewString: Add ingredient (x)
 					}
 
 					6: {
-						// OldString: item options
-						// NewString: item options
+						OldString: item options
+						NewString: item options
 					}
 				}
 			}
@@ -1611,15 +1436,15 @@ RecipeEditor: {
 			RecipeFilter+<>c: {
 				<GetFilters>b__1_3: {
 					1: {
-						// OldString: Terraria
-						// NewString: Terraria
+						OldString: Terraria
+						NewString: Terraria
 					}
 				}
 
 				<GetFilters>b__1_4: {
 					1: {
-						// OldString: Terraria
-						// NewString: Terraria
+						OldString: Terraria
+						NewString: Terraria
 					}
 				}
 			}
@@ -1627,29 +1452,29 @@ RecipeEditor: {
 			RecipeGrid+<>c__DisplayClass11_0: {
 				<*ctor>b__1: {
 					1: {
-						// OldString: Item filters
-						// NewString: Item filters
+						OldString: Item filters
+						NewString: Item filters
 					}
 				}
 
 				<*ctor>b__3: {
 					1: {
-						// OldString: Recipe filters
-						// NewString: Recipe filters
+						OldString: Recipe filters
+						NewString: Recipe filters
 					}
 				}
 
 				<*ctor>b__5: {
 					1: {
-						// OldString: Search by...
-						// NewString: Search by...
+						OldString: Search by...
+						NewString: Search by...
 					}
 				}
 
 				<*ctor>b__7: {
 					1: {
-						// OldString: Disable recipes by mod
-						// NewString: Disable recipes by mod
+						OldString: Disable recipes by mod
+						NewString: Disable recipes by mod
 					}
 				}
 			}
@@ -1657,8 +1482,8 @@ RecipeEditor: {
 			RecipeGrid+<>c__DisplayClass12_0: {
 				<SearchRecipes>b__2: {
 					1: {
-						// OldString: recipe options
-						// NewString: recipe options
+						OldString: recipe options
+						NewString: recipe options
 					}
 				}
 			}
@@ -1666,23 +1491,23 @@ RecipeEditor: {
 			RecipeGrid+<>c__DisplayClass13_0: {
 				<GetRecipeOptions>b__5: {
 					1: {
-						// OldString: Removing mod '
-						// NewString: Removing mod '
+						OldString: Removing mod '
+						NewString: Removing mod '
 					}
 
 					2: {
-						// OldString: "' from the disabled mod recipes list. A reload is required to restore these recipes"
-						// NewString: "' from the disabled mod recipes list. A reload is required to restore these recipes"
+						OldString: "' from the disabled mod recipes list. A reload is required to restore these recipes"
+						NewString: "' from the disabled mod recipes list. A reload is required to restore these recipes"
 					}
 
 					3: {
-						// OldString: Adding mod '
-						// NewString: Adding mod '
+						OldString: Adding mod '
+						NewString: Adding mod '
 					}
 
 					4: {
-						// OldString: "' to the disabled mod recipes list. All recipes from this mod will be disabled on the next reload"
-						// NewString: "' to the disabled mod recipes list. All recipes from this mod will be disabled on the next reload"
+						OldString: "' to the disabled mod recipes list. All recipes from this mod will be disabled on the next reload"
+						NewString: "' to the disabled mod recipes list. All recipes from this mod will be disabled on the next reload"
 					}
 				}
 			}
@@ -1692,25 +1517,25 @@ RecipeEditor: {
 			GroupErrorsGrid: {
 				UpdateCount: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: " group errors"
-						// NewString: " group errors"
+						OldString: " group errors"
+						NewString: " group errors"
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Showing 0 group errors
-						// NewString: Showing 0 group errors
+						OldString: Showing 0 group errors
+						NewString: Showing 0 group errors
 					}
 
 					2: {
-						// OldString: Left click groups to view their errors
-						// NewString: Left click groups to view their errors
+						OldString: Left click groups to view their errors
+						NewString: Left click groups to view their errors
 					}
 				}
 			}
@@ -1718,13 +1543,13 @@ RecipeEditor: {
 			LegacyWarningWindow: {
 				*ctor: {
 					1: {
-						// OldString: Warning: Potential loss of special tiles and recipe groups when converting legacy recipes if mods introducing those items are not enabled at the time of conversion.
-						// NewString: Warning: Potential loss of special tiles and recipe groups when converting legacy recipes if mods introducing those items are not enabled at the time of conversion.
+						OldString: Warning: Potential loss of special tiles and recipe groups when converting legacy recipes if mods introducing those items are not enabled at the time of conversion.
+						NewString: Warning: Potential loss of special tiles and recipe groups when converting legacy recipes if mods introducing those items are not enabled at the time of conversion.
 					}
 
 					2: {
-						// OldString: Cancel
-						// NewString: Cancel
+						OldString: Cancel
+						NewString: Cancel
 					}
 				}
 			}
@@ -1732,23 +1557,23 @@ RecipeEditor: {
 			ProfileRenameWindow: {
 				*ctor: {
 					1: {
-						// OldString: new name
-						// NewString: new name
+						OldString: new name
+						NewString: new name
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: Confirm
-						// NewString: Confirm
+						OldString: Confirm
+						NewString: Confirm
 					}
 
 					4: {
-						// OldString: Cancel
-						// NewString: Cancel
+						OldString: Cancel
+						NewString: Cancel
 					}
 				}
 			}
@@ -1756,25 +1581,25 @@ RecipeEditor: {
 			RecipeErrorsGrid: {
 				UpdateCount: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: " recipe errors"
-						// NewString: " recipe errors"
+						OldString: " recipe errors"
+						NewString: " recipe errors"
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Showing 0 recipe errors
-						// NewString: Showing 0 recipe errors
+						OldString: Showing 0 recipe errors
+						NewString: Showing 0 recipe errors
 					}
 
 					2: {
-						// OldString: Left click recipes to view their errors
-						// NewString: Left click recipes to view their errors
+						OldString: Left click recipes to view their errors
+						NewString: Left click recipes to view their errors
 					}
 				}
 			}
@@ -1782,8 +1607,8 @@ RecipeEditor: {
 			ProfileRenameWindow+<>c__DisplayClass0_0: {
 				<*ctor>b__0: {
 					1: {
-						// OldString: Profile must have a name!
-						// NewString: Profile must have a name!
+						OldString: Profile must have a name!
+						NewString: Profile must have a name!
 					}
 				}
 			}
@@ -1791,8 +1616,8 @@ RecipeEditor: {
 			RecipePeekerWindow+<>c__DisplayClass0_0: {
 				<*ctor>b__1: {
 					1: {
-						// OldString: Close
-						// NewString: Close
+						OldString: Close
+						NewString: Close
 					}
 				}
 			}
@@ -1802,60 +1627,60 @@ RecipeEditor: {
 			CreateProfileWindow: {
 				CreateProfile: {
 					1: {
-						// OldString: Successfully created new profile '
-						// NewString: Successfully created new profile '
+						OldString: Successfully created new profile '
+						NewString: Successfully created new profile '
 					}
 
 					2: {
-						// OldString: "'"
-						// NewString: "'"
+						OldString: "'"
+						NewString: "'"
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: profile name
-						// NewString: profile name
+						OldString: profile name
+						NewString: profile name
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: Include recipes
-						// NewString: Include recipes
+						OldString: Include recipes
+						NewString: Include recipes
 					}
 
 					4: {
-						// OldString: Include groups
-						// NewString: Include groups
+						OldString: Include groups
+						NewString: Include groups
 					}
 
 					5: {
-						// OldString: Legacy recipes
-						// NewString: Legacy recipes
+						OldString: Legacy recipes
+						NewString: Legacy recipes
 					}
 
 					6: {
-						// OldString: Legacy groups
-						// NewString: Legacy groups
+						OldString: Legacy groups
+						NewString: Legacy groups
 					}
 
 					7: {
-						// OldString: Disabled mods
-						// NewString: Disabled mods
+						OldString: Disabled mods
+						NewString: Disabled mods
 					}
 
 					8: {
-						// OldString: Create
-						// NewString: Create
+						OldString: Create
+						NewString: Create
 					}
 
 					9: {
-						// OldString: Cancel
-						// NewString: Cancel
+						OldString: Cancel
+						NewString: Cancel
 					}
 				}
 			}
@@ -1863,145 +1688,145 @@ RecipeEditor: {
 			ProfileDetailsGrid: {
 				SearchRecipes: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " recipes"
-						// NewString: " recipes"
+						OldString: " recipes"
+						NewString: " recipes"
 					}
 				}
 
 				GetRecipeOptions: {
 					1: {
-						// OldString: Disable
-						// NewString: Disable
+						OldString: Disable
+						NewString: Disable
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: Delete
-						// NewString: Delete
+						OldString: Delete
+						NewString: Delete
 					}
 
 					4: {
-						// OldString: Peek recipe
-						// NewString: Peek recipe
+						OldString: Peek recipe
+						NewString: Peek recipe
 					}
 				}
 
 				SearchGroups: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " groups"
-						// NewString: " groups"
+						OldString: " groups"
+						NewString: " groups"
 					}
 				}
 
 				GetGroupOptions: {
 					1: {
-						// OldString: Disable
-						// NewString: Disable
+						OldString: Disable
+						NewString: Disable
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: Delete
-						// NewString: Delete
+						OldString: Delete
+						NewString: Delete
 					}
 
 					4: {
-						// OldString: Peek group
-						// NewString: Peek group
+						OldString: Peek group
+						NewString: Peek group
 					}
 				}
 
 				DoesItemMatchFilter: {
 					1: {
-						// OldString: @
-						// NewString: @
+						OldString: @
+						NewString: @
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				SetProfile: {
 					1: {
-						// OldString: Showing profile: '
-						// NewString: Showing profile: '
+						OldString: Showing profile: '
+						NewString: Showing profile: '
 					}
 
 					2: {
-						// OldString: "'"
-						// NewString: "'"
+						OldString: "'"
+						NewString: "'"
 					}
 
 					3: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: "Showing profile: "
-						// NewString: "Showing profile: "
+						OldString: "Showing profile: "
+						NewString: "Showing profile: "
 					}
 
 					2: {
-						// OldString: Showing 0/0 recipes
-						// NewString: Showing 0/0 recipes
+						OldString: Showing 0/0 recipes
+						NewString: Showing 0/0 recipes
 					}
 
 					3: {
-						// OldString: Search recipes
-						// NewString: Search recipes
+						OldString: Search recipes
+						NewString: Search recipes
 					}
 
 					4: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					5: {
-						// OldString: ...
-						// NewString: ...
+						OldString: ...
+						NewString: ...
 					}
 
 					6: {
-						// OldString: Showing 0/0 groups
-						// NewString: Showing 0/0 groups
+						OldString: Showing 0/0 groups
+						NewString: Showing 0/0 groups
 					}
 
 					7: {
-						// OldString: Search groups
-						// NewString: Search groups
+						OldString: Search groups
+						NewString: Search groups
 					}
 				}
 			}
@@ -2009,148 +1834,148 @@ RecipeEditor: {
 			ProfilesGrid: {
 				SearchProfiles: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " profiles"
-						// NewString: " profiles"
+						OldString: " profiles"
+						NewString: " profiles"
 					}
 				}
 
 				ConvertOldProfiles: {
 					1: {
-						// OldString: Successfully converted old profiles
-						// NewString: Successfully converted old profiles
+						OldString: Successfully converted old profiles
+						NewString: Successfully converted old profiles
 					}
 				}
 
 				GetOptions: {
 					1: {
-						// OldString: Delete profile
-						// NewString: Delete profile
+						OldString: Delete profile
+						NewString: Delete profile
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: Copy profile
-						// NewString: Copy profile
+						OldString: Copy profile
+						NewString: Copy profile
 					}
 
 					4: {
-						// OldString: Merge profile
-						// NewString: Merge profile
+						OldString: Merge profile
+						NewString: Merge profile
 					}
 
 					5: {
-						// OldString: Requires reload
-						// NewString: Requires reload
+						OldString: Requires reload
+						NewString: Requires reload
 					}
 
 					6: {
-						// OldString: Reverse merge profile
-						// NewString: Reverse merge profile
+						OldString: Reverse merge profile
+						NewString: Reverse merge profile
 					}
 
 					7: {
-						// OldString: Update profile
-						// NewString: Update profile
+						OldString: Update profile
+						NewString: Update profile
 					}
 
 					8: {
-						// OldString: Swap profile
-						// NewString: Swap profile
+						OldString: Swap profile
+						NewString: Swap profile
 					}
 
 					9: {
-						// OldString: Deselect all
-						// NewString: Deselect all
+						OldString: Deselect all
+						NewString: Deselect all
 					}
 
 					10: {
-						// OldString: Share profile
-						// NewString: Share profile
+						OldString: Share profile
+						NewString: Share profile
 					}
 
 					11: {
-						// OldString: Remove errors
-						// NewString: Remove errors
+						OldString: Remove errors
+						NewString: Remove errors
 					}
 
 					12: {
-						// OldString: View profile details
-						// NewString: View profile details
+						OldString: View profile details
+						NewString: View profile details
 					}
 
 					13: {
-						// OldString: Combine selected profiles
-						// NewString: Combine selected profiles
+						OldString: Combine selected profiles
+						NewString: Combine selected profiles
 					}
 
 					14: {
-						// OldString: Rename profile
-						// NewString: Rename profile
+						OldString: Rename profile
+						NewString: Rename profile
 					}
 
 					15: {
-						// OldString: Add to selection
-						// NewString: Add to selection
+						OldString: Add to selection
+						NewString: Add to selection
 					}
 				}
 
 				<*ctor>b__7_1: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					2: {
-						// OldString: Convert
-						// NewString: Convert
+						OldString: Convert
+						NewString: Convert
 					}
 				}
 
 				<*ctor>b__7_5: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Showing 0/0 profiles
-						// NewString: Showing 0/0 profiles
+						OldString: Showing 0/0 profiles
+						NewString: Showing 0/0 profiles
 					}
 
 					2: {
-						// OldString: Search Profiles
-						// NewString: Search Profiles
+						OldString: Search Profiles
+						NewString: Search Profiles
 					}
 
 					3: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					4: {
-						// OldString: ...
-						// NewString: ...
+						OldString: ...
+						NewString: ...
 					}
 
 					5: {
-						// OldString: +
-						// NewString: +
+						OldString: +
+						NewString: +
 					}
 				}
 			}
@@ -2158,13 +1983,13 @@ RecipeEditor: {
 			CreateProfileWindow+<>c__DisplayClass5_0: {
 				<*ctor>b__0: {
 					1: {
-						// OldString: You must enter a profile name!
-						// NewString: You must enter a profile name!
+						OldString: You must enter a profile name!
+						NewString: You must enter a profile name!
 					}
 
 					2: {
-						// OldString: Create
-						// NewString: Create
+						OldString: Create
+						NewString: Create
 					}
 				}
 			}
@@ -2172,36 +1997,36 @@ RecipeEditor: {
 			ProfileDetailsGrid+<>c__DisplayClass16_0: {
 				<*ctor>b__1: {
 					1: {
-						// OldString: Item filters
-						// NewString: Item filters
+						OldString: Item filters
+						NewString: Item filters
 					}
 				}
 
 				<*ctor>b__3: {
 					1: {
-						// OldString: Recipe filters
-						// NewString: Recipe filters
+						OldString: Recipe filters
+						NewString: Recipe filters
 					}
 				}
 
 				<*ctor>b__6: {
 					1: {
-						// OldString: Disable recipes by mod
-						// NewString: Disable recipes by mod
+						OldString: Disable recipes by mod
+						NewString: Disable recipes by mod
 					}
 				}
 
 				<*ctor>b__9: {
 					1: {
-						// OldString: Item filters
-						// NewString: Item filters
+						OldString: Item filters
+						NewString: Item filters
 					}
 				}
 
 				<*ctor>b__11: {
 					1: {
-						// OldString: Group filters
-						// NewString: Group filters
+						OldString: Group filters
+						NewString: Group filters
 					}
 				}
 			}
@@ -2209,8 +2034,8 @@ RecipeEditor: {
 			ProfileDetailsGrid+<>c__DisplayClass17_0: {
 				<SearchRecipes>b__1: {
 					1: {
-						// OldString: recipe options
-						// NewString: recipe options
+						OldString: recipe options
+						NewString: recipe options
 					}
 				}
 			}
@@ -2218,8 +2043,8 @@ RecipeEditor: {
 			ProfileDetailsGrid+<>c__DisplayClass19_0: {
 				<SearchGroups>b__1: {
 					1: {
-						// OldString: group options
-						// NewString: group options
+						OldString: group options
+						NewString: group options
 					}
 				}
 			}
@@ -2227,15 +2052,15 @@ RecipeEditor: {
 			ProfilesGrid+<>c__DisplayClass7_0: {
 				<*ctor>b__2: {
 					1: {
-						// OldString: Convert old profiles
-						// NewString: Convert old profiles
+						OldString: Convert old profiles
+						NewString: Convert old profiles
 					}
 				}
 
 				<*ctor>b__4: {
 					1: {
-						// OldString: Add new profile
-						// NewString: Add new profile
+						OldString: Add new profile
+						NewString: Add new profile
 					}
 				}
 			}
@@ -2243,8 +2068,8 @@ RecipeEditor: {
 			ProfilesGrid+<>c__DisplayClass8_1: {
 				<SearchProfiles>b__1: {
 					1: {
-						// OldString: profile options
-						// NewString: profile options
+						OldString: profile options
+						NewString: profile options
 					}
 				}
 			}
@@ -2254,38 +2079,38 @@ RecipeEditor: {
 			InfoMain: {
 				*ctor: {
 					1: {
-						// OldString: Created by Jacklz
-						// NewString: Created by Jacklz
+						OldString: Created by Jacklz
+						NewString: Created by Jacklz
 					}
 
 					2: {
-						// OldString: Additional UI elements by jopojelly, NotLe0n, and Pbone
-						// NewString: Additional UI elements by jopojelly, NotLe0n, and Pbone
+						OldString: Additional UI elements by jopojelly, NotLe0n, and Pbone
+						NewString: Additional UI elements by jopojelly, NotLe0n, and Pbone
 					}
 
 					3: {
-						// OldString: Please provide any feedback you may have to the steam workshop page or the discord
-						// NewString: Please provide any feedback you may have to the steam workshop page or the discord
+						OldString: Please provide any feedback you may have to the steam workshop page or the discord
+						NewString: Please provide any feedback you may have to the steam workshop page or the discord
 					}
 
 					4: {
-						// OldString: Changelog: v
-						// NewString: Changelog: v
+						OldString: Changelog: v
+						NewString: Changelog: v
 					}
 
 					5: {
-						// OldString: Adjusted the auto config size check to only check the config that is being changed.
-						// NewString: Adjusted the auto config size check to only check the config that is being changed.
+						OldString: Adjusted the auto config size check to only check the config that is being changed.
+						NewString: Adjusted the auto config size check to only check the config that is being changed.
 					}
 
 					6: {
-						// OldString: Fixed a bug that caused the game to freeze when creating recipes due to a file not found exception.
-						// NewString: Fixed a bug that caused the game to freeze when creating recipes due to a file not found exception.
+						OldString: Fixed a bug that caused the game to freeze when creating recipes due to a file not found exception.
+						NewString: Fixed a bug that caused the game to freeze when creating recipes due to a file not found exception.
 					}
 
 					7: {
-						// OldString: ". "
-						// NewString: ". "
+						OldString: ". "
+						NewString: ". "
 					}
 				}
 			}
@@ -2293,15 +2118,15 @@ RecipeEditor: {
 			InfoMain+<>c: {
 				<*ctor>b__0_0: {
 					1: {
-						// OldString: https://discord.gg/SDThAjNpbM
-						// NewString: https://discord.gg/SDThAjNpbM
+						OldString: https://discord.gg/SDThAjNpbM
+						NewString: https://discord.gg/SDThAjNpbM
 					}
 				}
 
 				<*ctor>b__0_2: {
 					1: {
-						// OldString: https://steamcommunity.com/sharedfiles/filedetails/?id=2620755310
-						// NewString: https://steamcommunity.com/sharedfiles/filedetails/?id=2620755310
+						OldString: https://steamcommunity.com/sharedfiles/filedetails/?id=2620755310
+						NewString: https://steamcommunity.com/sharedfiles/filedetails/?id=2620755310
 					}
 				}
 			}
@@ -2309,15 +2134,15 @@ RecipeEditor: {
 			InfoMain+<>c__DisplayClass0_0: {
 				<*ctor>b__1: {
 					1: {
-						// OldString: Open discord server
-						// NewString: Open discord server
+						OldString: Open discord server
+						NewString: Open discord server
 					}
 				}
 
 				<*ctor>b__3: {
 					1: {
-						// OldString: Open workshop page
-						// NewString: Open workshop page
+						OldString: Open workshop page
+						NewString: Open workshop page
 					}
 				}
 			}
@@ -2327,35 +2152,35 @@ RecipeEditor: {
 			GroupButtonGrid: {
 				<*ctor>b__7_1: {
 					1: {
-						// OldString: RecipeEditor:
-						// NewString: RecipeEditor:
+						OldString: RecipeEditor:
+						NewString: RecipeEditor:
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: New
-						// NewString: New
+						OldString: New
+						NewString: New
 					}
 
 					2: {
-						// OldString: Group name
-						// NewString: Group name
+						OldString: Group name
+						NewString: Group name
 					}
 
 					3: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					4: {
-						// OldString: Finish
-						// NewString: Finish
+						OldString: Finish
+						NewString: Finish
 					}
 
 					5: {
-						// OldString: Close
-						// NewString: Close
+						OldString: Close
+						NewString: Close
 					}
 				}
 			}
@@ -2363,28 +2188,28 @@ RecipeEditor: {
 			GroupFilter: {
 				GetFilters: {
 					1: {
-						// OldString: Custom group
-						// NewString: Custom group
+						OldString: Custom group
+						NewString: Custom group
 					}
 
 					2: {
-						// OldString: Disabled group
-						// NewString: Disabled group
+						OldString: Disabled group
+						NewString: Disabled group
 					}
 
 					3: {
-						// OldString: Enabled group
-						// NewString: Enabled group
+						OldString: Enabled group
+						NewString: Enabled group
 					}
 
 					4: {
-						// OldString: Broken group
-						// NewString: Broken group
+						OldString: Broken group
+						NewString: Broken group
 					}
 
 					5: {
-						// OldString: All groups
-						// NewString: All groups
+						OldString: All groups
+						NewString: All groups
 					}
 				}
 			}
@@ -2392,35 +2217,35 @@ RecipeEditor: {
 			GroupItemsGrid: {
 				UpdateCount: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " items"
-						// NewString: " items"
+						OldString: " items"
+						NewString: " items"
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Showing 0/0 items
-						// NewString: Showing 0/0 items
+						OldString: Showing 0/0 items
+						NewString: Showing 0/0 items
 					}
 
 					2: {
-						// OldString: Search items
-						// NewString: Search items
+						OldString: Search items
+						NewString: Search items
 					}
 
 					3: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 			}
@@ -2428,89 +2253,89 @@ RecipeEditor: {
 			GroupsGrid: {
 				SearchGroups: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " groups"
-						// NewString: " groups"
+						OldString: " groups"
+						NewString: " groups"
 					}
 				}
 
 				GetGroupOptions: {
 					1: {
-						// OldString: Disable
-						// NewString: Disable
+						OldString: Disable
+						NewString: Disable
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: Delete
-						// NewString: Delete
+						OldString: Delete
+						NewString: Delete
 					}
 
 					4: {
-						// OldString: View group items
-						// NewString: View group items
+						OldString: View group items
+						NewString: View group items
 					}
 
 					5: {
-						// OldString: Add group items to list
-						// NewString: Add group items to list
+						OldString: Add group items to list
+						NewString: Add group items to list
 					}
 
 					6: {
-						// OldString: View errors
-						// NewString: View errors
+						OldString: View errors
+						NewString: View errors
 					}
 
 					7: {
-						// OldString: Share
-						// NewString: Share
+						OldString: Share
+						NewString: Share
 					}
 				}
 
 				<*ctor>b__9_6: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Showing 0/0 groups
-						// NewString: Showing 0/0 groups
+						OldString: Showing 0/0 groups
+						NewString: Showing 0/0 groups
 					}
 
 					2: {
-						// OldString: Search items
-						// NewString: Search items
+						OldString: Search items
+						NewString: Search items
 					}
 
 					3: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					4: {
-						// OldString: Search groups
-						// NewString: Search groups
+						OldString: Search groups
+						NewString: Search groups
 					}
 
 					5: {
-						// OldString: ...
-						// NewString: ...
+						OldString: ...
+						NewString: ...
 					}
 				}
 			}
@@ -2518,45 +2343,45 @@ RecipeEditor: {
 			GroupEditMain+<>c__DisplayClass0_0: {
 				<*ctor>b__2: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				<*ctor>b__3: {
 					1: {
-						// OldString: A reload is required before adding or editing any groups
-						// NewString: A reload is required before adding or editing any groups
+						OldString: A reload is required before adding or editing any groups
+						NewString: A reload is required before adding or editing any groups
 					}
 
 					2: {
-						// OldString: Your group must have at least 2 items
-						// NewString: Your group must have at least 2 items
+						OldString: Your group must have at least 2 items
+						NewString: Your group must have at least 2 items
 					}
 
 					3: {
-						// OldString: RecipeEditor:
-						// NewString: RecipeEditor:
+						OldString: RecipeEditor:
+						NewString: RecipeEditor:
 					}
 
 					4: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					5: {
-						// OldString: You must enter a name for your group
-						// NewString: You must enter a name for your group
+						OldString: You must enter a name for your group
+						NewString: You must enter a name for your group
 					}
 
 					6: {
-						// OldString: This group already exists!
-						// NewString: This group already exists!
+						OldString: This group already exists!
+						NewString: This group already exists!
 					}
 
 					7: {
-						// OldString: Successfully created new group
-						// NewString: Successfully created new group
+						OldString: Successfully created new group
+						NewString: Successfully created new group
 					}
 				}
 			}
@@ -2564,8 +2389,8 @@ RecipeEditor: {
 			GroupsGrid+<>c__DisplayClass13_0: {
 				<AddGroupToList>b__2: {
 					1: {
-						// OldString: recipe group options
-						// NewString: recipe group options
+						OldString: recipe group options
+						NewString: recipe group options
 					}
 				}
 			}
@@ -2573,15 +2398,15 @@ RecipeEditor: {
 			GroupsGrid+<>c__DisplayClass9_0: {
 				<*ctor>b__2: {
 					1: {
-						// OldString: Item filters
-						// NewString: Item filters
+						OldString: Item filters
+						NewString: Item filters
 					}
 				}
 
 				<*ctor>b__4: {
 					1: {
-						// OldString: Group filters
-						// NewString: Group filters
+						OldString: Group filters
+						NewString: Group filters
 					}
 				}
 			}
@@ -2591,28 +2416,28 @@ RecipeEditor: {
 			EditorUI: {
 				OnInitialize: {
 					1: {
-						// OldString: Info
-						// NewString: Info
+						OldString: Info
+						NewString: 资讯
 					}
 
 					2: {
-						// OldString: Recipe Editor
-						// NewString: Recipe Editor
+						OldString: Recipe Editor
+						NewString: 合成编辑
 					}
 
 					3: {
-						// OldString: Group Editor
-						// NewString: Group Editor
+						OldString: Group Editor
+						NewString: 合成组编辑
 					}
 
 					4: {
-						// OldString: Profile Editor
-						// NewString: Profile Editor
+						OldString: Profile Editor
+						NewString: Profile Editor
 					}
 
 					5: {
-						// OldString: Help
-						// NewString: Help
+						OldString: Help
+						NewString: 帮助
 					}
 				}
 			}
@@ -2620,23 +2445,23 @@ RecipeEditor: {
 			ItemAmountWindow: {
 				*ctor: {
 					1: {
-						// OldString: amount
-						// NewString: amount
+						OldString: amount
+						NewString: amount
 					}
 
 					2: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					3: {
-						// OldString: Confirm
-						// NewString: Confirm
+						OldString: Confirm
+						NewString: Confirm
 					}
 
 					4: {
-						// OldString: Cancel
-						// NewString: Cancel
+						OldString: Cancel
+						NewString: Cancel
 					}
 				}
 			}
@@ -2644,13 +2469,13 @@ RecipeEditor: {
 			ItemDefinitionSlot: {
 				*ctor: {
 					1: {
-						// OldString: " ["
-						// NewString: " ["
+						OldString: " ["
+						NewString: " ["
 					}
 
 					2: {
-						// OldString: "] (Unloaded)"
-						// NewString: "] (Unloaded)"
+						OldString: "] (Unloaded)"
+						NewString: "] (Unloaded)"
 					}
 				}
 			}
@@ -2658,103 +2483,103 @@ RecipeEditor: {
 			ItemFilter: {
 				GetFilters: {
 					1: {
-						// OldString: Magic
-						// NewString: Magic
+						OldString: Magic
+						NewString: Magic
 					}
 
 					2: {
-						// OldString: Melee
-						// NewString: Melee
+						OldString: Melee
+						NewString: Melee
 					}
 
 					3: {
-						// OldString: Material
-						// NewString: Material
+						OldString: Material
+						NewString: Material
 					}
 
 					4: {
-						// OldString: Ranged
-						// NewString: Ranged
+						OldString: Ranged
+						NewString: Ranged
 					}
 
 					5: {
-						// OldString: Summon
-						// NewString: Summon
+						OldString: Summon
+						NewString: Summon
 					}
 
 					6: {
-						// OldString: Armor
-						// NewString: Armor
+						OldString: Armor
+						NewString: Armor
 					}
 
 					7: {
-						// OldString: Vanity
-						// NewString: Vanity
+						OldString: Vanity
+						NewString: Vanity
 					}
 
 					8: {
-						// OldString: Accessories
-						// NewString: Accessories
+						OldString: Accessories
+						NewString: Accessories
 					}
 
 					9: {
-						// OldString: Expert
-						// NewString: Expert
+						OldString: Expert
+						NewString: Expert
 					}
 
 					10: {
-						// OldString: Master
-						// NewString: Master
+						OldString: Master
+						NewString: Master
 					}
 
 					11: {
-						// OldString: Ammo
-						// NewString: Ammo
+						OldString: Ammo
+						NewString: Ammo
 					}
 
 					12: {
-						// OldString: Placeable
-						// NewString: Placeable
+						OldString: Placeable
+						NewString: Placeable
 					}
 
 					13: {
-						// OldString: Non-material
-						// NewString: Non-material
+						OldString: Non-material
+						NewString: Non-material
 					}
 
 					14: {
-						// OldString: Heal items
-						// NewString: Heal items
+						OldString: Heal items
+						NewString: Heal items
 					}
 
 					15: {
-						// OldString: Consumable
-						// NewString: Consumable
+						OldString: Consumable
+						NewString: Consumable
 					}
 
 					16: {
-						// OldString: Pickaxes
-						// NewString: Pickaxes
+						OldString: Pickaxes
+						NewString: Pickaxes
 					}
 
 					17: {
-						// OldString: Hammers
-						// NewString: Hammers
+						OldString: Hammers
+						NewString: Hammers
 					}
 
 					18: {
-						// OldString: Axes
-						// NewString: Axes
+						OldString: Axes
+						NewString: Axes
 					}
 
 					19: {
-						// OldString: All items
-						// NewString: All items
+						OldString: All items
+						NewString: All items
 					}
 
 					20: {
-						// OldString: Special Tiles
-						// NewString: Special Tiles
+						OldString: Special Tiles
+						NewString: Special Tiles
 					}
 				}
 			}
@@ -2762,40 +2587,40 @@ RecipeEditor: {
 			ItemGrid: {
 				SearchItems: {
 					1: {
-						// OldString: "Showing "
-						// NewString: "Showing "
+						OldString: "Showing "
+						NewString: "Showing "
 					}
 
 					2: {
-						// OldString: /
-						// NewString: /
+						OldString: /
+						NewString: /
 					}
 
 					3: {
-						// OldString: " items"
-						// NewString: " items"
+						OldString: " items"
+						NewString: " items"
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: Showing 0/0 items
-						// NewString: Showing 0/0 items
+						OldString: Showing 0/0 items
+						NewString: Showing 0/0 items
 					}
 
 					2: {
-						// OldString: Search items
-						// NewString: Search items
+						OldString: Search items
+						NewString: Search items
 					}
 
 					3: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 
 					4: {
-						// OldString: ...
-						// NewString: ...
+						OldString: ...
+						NewString: ...
 					}
 				}
 			}
@@ -2803,25 +2628,25 @@ RecipeEditor: {
 			ItemSearchMethods: {
 				GetFilters: {
 					1: {
-						// OldString: Item name
-						// NewString: Item name
+						OldString: Item name
+						NewString: Item name
 					}
 
 					2: {
-						// OldString: Mod name
-						// NewString: Mod name
+						OldString: Mod name
+						NewString: Mod name
 					}
 
 					3: {
-						// OldString: Tool tip
-						// NewString: Tool tip
+						OldString: Tool tip
+						NewString: Tool tip
 					}
 				}
 
 				*ctor: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 			}
@@ -2829,8 +2654,8 @@ RecipeEditor: {
 			NewTileTexture: {
 				OnInitialize: {
 					1: {
-						// OldString: x
-						// NewString: x
+						OldString: x
+						NewString: x
 					}
 				}
 			}
@@ -2838,8 +2663,8 @@ RecipeEditor: {
 			NewWallTexture: {
 				OnInitialize: {
 					1: {
-						// OldString: x
-						// NewString: x
+						OldString: x
+						NewString: x
 					}
 				}
 			}
@@ -2847,15 +2672,15 @@ RecipeEditor: {
 			ProfileCheckbox: {
 				MoveBack: {
 					1: {
-						// OldString: "   "
-						// NewString: "   "
+						OldString: "   "
+						NewString: "   "
 					}
 				}
 
 				MakeRoomForError: {
 					1: {
-						// OldString: "     "
-						// NewString: "     "
+						OldString: "     "
+						NewString: "     "
 					}
 				}
 			}
@@ -2863,15 +2688,15 @@ RecipeEditor: {
 			RecipeGroupCheckbox: {
 				MoveBack: {
 					1: {
-						// OldString: "   "
-						// NewString: "   "
+						OldString: "   "
+						NewString: "   "
 					}
 				}
 
 				MakeRoomForError: {
 					1: {
-						// OldString: "     "
-						// NewString: "     "
+						OldString: "     "
+						NewString: "     "
 					}
 				}
 			}
@@ -2879,69 +2704,69 @@ RecipeEditor: {
 			TexturePanel: {
 				OnInitialize: {
 					1: {
-						// OldString: "Showing page 1 of "
-						// NewString: "Showing page 1 of "
+						OldString: "Showing page 1 of "
+						NewString: "Showing page 1 of "
 					}
 
 					2: {
-						// OldString: <
-						// NewString: <
+						OldString: <
+						NewString: <
 					}
 
 					3: {
-						// OldString: >
-						// NewString: >
+						OldString: >
+						NewString: >
 					}
 
 					4: {
-						// OldString: "Scale: "
-						// NewString: "Scale: "
+						OldString: "Scale: "
+						NewString: "Scale: "
 					}
 
 					5: {
-						// OldString: -
-						// NewString: -
+						OldString: -
+						NewString: -
 					}
 
 					6: {
-						// OldString: +
-						// NewString: +
+						OldString: +
+						NewString: +
 					}
 
 					7: {
-						// OldString: =
-						// NewString: =
+						OldString: =
+						NewString: =
 					}
 				}
 
 				UpdateScaleText: {
 					1: {
-						// OldString: "Scale: "
-						// NewString: "Scale: "
+						OldString: "Scale: "
+						NewString: "Scale: "
 					}
 				}
 
 				UpdatePageCount: {
 					1: {
-						// OldString: "Showing page "
-						// NewString: "Showing page "
+						OldString: "Showing page "
+						NewString: "Showing page "
 					}
 
 					2: {
-						// OldString: " of "
-						// NewString: " of "
+						OldString: " of "
+						NewString: " of "
 					}
 				}
 
 				SetPage: {
 					1: {
-						// OldString: "Showing page "
-						// NewString: "Showing page "
+						OldString: "Showing page "
+						NewString: "Showing page "
 					}
 
 					2: {
-						// OldString: " of "
-						// NewString: " of "
+						OldString: " of "
+						NewString: " of "
 					}
 				}
 			}
@@ -2949,8 +2774,8 @@ RecipeEditor: {
 			UIBuilder: {
 				ModifyInterfaceLayers: {
 					1: {
-						// OldString: RecipeEditor: Recipe Editor List
-						// NewString: RecipeEditor: Recipe Editor List
+						OldString: RecipeEditor: Recipe Editor List
+						NewString: RecipeEditor: Recipe Editor List
 					}
 				}
 			}
@@ -2958,23 +2783,23 @@ RecipeEditor: {
 			ItemAmountWindow+<>c__DisplayClass3_1: {
 				<*ctor>b__0: {
 					1: {
-						// OldString: Unable to set amount! Check to make sure you typed only numbers
-						// NewString: Unable to set amount! Check to make sure you typed only numbers
+						OldString: Unable to set amount! Check to make sure you typed only numbers
+						NewString: Unable to set amount! Check to make sure you typed only numbers
 					}
 
 					2: {
-						// OldString: Amount cannot be less than 1
-						// NewString: Amount cannot be less than 1
+						OldString: Amount cannot be less than 1
+						NewString: Amount cannot be less than 1
 					}
 
 					3: {
-						// OldString: Amount cannot be greater than the max stack of the item '
-						// NewString: Amount cannot be greater than the max stack of the item '
+						OldString: Amount cannot be greater than the max stack of the item '
+						NewString: Amount cannot be greater than the max stack of the item '
 					}
 
 					4: {
-						// OldString: "'"
-						// NewString: "'"
+						OldString: "'"
+						NewString: "'"
 					}
 				}
 			}
@@ -2982,15 +2807,15 @@ RecipeEditor: {
 			ItemFilter+<>c: {
 				<DoesItemMatchFilter>b__2_0: {
 					1: {
-						// OldString: Special Tiles
-						// NewString: Special Tiles
+						OldString: Special Tiles
+						NewString: Special Tiles
 					}
 				}
 
 				<IncludeTiles>b__3_1: {
 					1: {
-						// OldString: Special Tiles
-						// NewString: Special Tiles
+						OldString: Special Tiles
+						NewString: Special Tiles
 					}
 				}
 			}
@@ -2998,8 +2823,8 @@ RecipeEditor: {
 			ItemGrid+<>c__DisplayClass12_0: {
 				<*ctor>b__5: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 			}
@@ -3007,15 +2832,15 @@ RecipeEditor: {
 			ItemGrid+<>c__DisplayClass12_1: {
 				<*ctor>b__1: {
 					1: {
-						// OldString: Item filters
-						// NewString: Item filters
+						OldString: Item filters
+						NewString: Item filters
 					}
 				}
 
 				<*ctor>b__3: {
 					1: {
-						// OldString: Search by...
-						// NewString: Search by...
+						OldString: Search by...
+						NewString: Search by...
 					}
 				}
 			}
@@ -3023,36 +2848,36 @@ RecipeEditor: {
 			TexturePanel+<>c__DisplayClass10_0: {
 				<OnInitialize>b__0: {
 					1: {
-						// OldString: Previous page
-						// NewString: Previous page
+						OldString: Previous page
+						NewString: Previous page
 					}
 				}
 
 				<OnInitialize>b__2: {
 					1: {
-						// OldString: Next page
-						// NewString: Next page
+						OldString: Next page
+						NewString: Next page
 					}
 				}
 
 				<OnInitialize>b__4: {
 					1: {
-						// OldString: Zoom out
-						// NewString: Zoom out
+						OldString: Zoom out
+						NewString: Zoom out
 					}
 				}
 
 				<OnInitialize>b__6: {
 					1: {
-						// OldString: Zoom in
-						// NewString: Zoom in
+						OldString: Zoom in
+						NewString: Zoom in
 					}
 				}
 
 				<OnInitialize>b__8: {
 					1: {
-						// OldString: Reset zoom
-						// NewString: Reset zoom
+						OldString: Reset zoom
+						NewString: Reset zoom
 					}
 				}
 			}
@@ -3060,8 +2885,8 @@ RecipeEditor: {
 			UIBuilder+<>c: {
 				<ModifyInterfaceLayers>b__5_0: {
 					1: {
-						// OldString: Vanilla: Mouse Text
-						// NewString: Vanilla: Mouse Text
+						OldString: Vanilla: Mouse Text
+						NewString: Vanilla: Mouse Text
 					}
 				}
 			}
@@ -3072,79 +2897,79 @@ RecipeEditor: {
 		FakeGroup: {
 			Disable: {
 				1: {
-					// OldString: A reload is required before adding or editing any groups
-					// NewString: A reload is required before adding or editing any groups
+					OldString: A reload is required before adding or editing any groups
+					NewString: A reload is required before adding or editing any groups
 				}
 			}
 
 			Delete: {
 				1: {
-					// OldString: A reload is required before adding or editing any groups
-					// NewString: A reload is required before adding or editing any groups
+					OldString: A reload is required before adding or editing any groups
+					NewString: A reload is required before adding or editing any groups
 				}
 			}
 
 			AddToConfig: {
 				1: {
-					// OldString: NewGroupEdits
-					// NewString: NewGroupEdits
+					OldString: NewGroupEdits
+					NewString: NewGroupEdits
 				}
 			}
 
 			IsGroupSafe: {
 				1: {
-					// OldString: Empty group name
-					// NewString: Empty group name
+					OldString: Empty group name
+					NewString: Empty group name
 				}
 
 				2: {
-					// OldString: RecipeEditor:
-					// NewString: RecipeEditor:
+					OldString: RecipeEditor:
+					NewString: RecipeEditor:
 				}
 
 				3: {
-					// OldString: Recipe group '
-					// NewString: Recipe group '
+					OldString: Recipe group '
+					NewString: Recipe group '
 				}
 
 				4: {
-					// OldString: "' must start with 'RecipeEditor:'"
-					// NewString: "' must start with 'RecipeEditor:'"
+					OldString: "' must start with 'RecipeEditor:'"
+					NewString: "' must start with 'RecipeEditor:'"
 				}
 
 				5: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 
 				6: {
-					// OldString: Your group must have a name
-					// NewString: Your group must have a name
+					OldString: Your group must have a name
+					NewString: Your group must have a name
 				}
 
 				7: {
-					// OldString: Recipe group contained fewer than 2 items
-					// NewString: Recipe group contained fewer than 2 items
+					OldString: Recipe group contained fewer than 2 items
+					NewString: Recipe group contained fewer than 2 items
 				}
 
 				8: {
-					// OldString: Item '
-					// NewString: Item '
+					OldString: Item '
+					NewString: Item '
 				}
 
 				9: {
-					// OldString: "' from mod '"
-					// NewString: "' from mod '"
+					OldString: "' from mod '"
+					NewString: "' from mod '"
 				}
 
 				10: {
-					// OldString: "' is unloaded"
-					// NewString: "' is unloaded"
+					OldString: "' is unloaded"
+					NewString: "' is unloaded"
 				}
 
 				11: {
-					// OldString: "' already exists!"
-					// NewString: "' already exists!"
+					OldString: "' already exists!"
+					NewString: "' already exists!"
 				}
 			}
 		}
@@ -3152,53 +2977,53 @@ RecipeEditor: {
 		FakeRecipe: {
 			DoesItemExistInGroup: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 
 			GetOriginalRecipeMod: {
 				1: {
-					// OldString: Recipe Editor
-					// NewString: Recipe Editor
+					OldString: Recipe Editor
+					NewString: Recipe Editor
 				}
 
 				2: {
-					// OldString: Terraria
-					// NewString: Terraria
+					OldString: Terraria
+					NewString: Terraria
 				}
 			}
 
 			AddToConfig: {
 				1: {
-					// OldString: NewRecipeEdits
-					// NewString: NewRecipeEdits
+					OldString: NewRecipeEdits
+					NewString: NewRecipeEdits
 				}
 			}
 
 			Disable: {
 				1: {
-					// OldString: A reload is required before adding or editing any recipes
-					// NewString: A reload is required before adding or editing any recipes
+					OldString: A reload is required before adding or editing any recipes
+					NewString: A reload is required before adding or editing any recipes
 				}
 			}
 
 			Delete: {
 				1: {
-					// OldString: A reload is required before adding or editing any recipes
-					// NewString: A reload is required before adding or editing any recipes
+					OldString: A reload is required before adding or editing any recipes
+					NewString: A reload is required before adding or editing any recipes
 				}
 			}
 
 			IsRecipeSafe: {
 				1: {
-					// OldString: Duplicate recipe group '
-					// NewString: Duplicate recipe group '
+					OldString: Duplicate recipe group '
+					NewString: Duplicate recipe group '
 				}
 
 				2: {
-					// OldString: "' within ingredients"
-					// NewString: "' within ingredients"
+					OldString: "' within ingredients"
+					NewString: "' within ingredients"
 				}
 			}
 		}
@@ -3206,119 +3031,119 @@ RecipeEditor: {
 		Profile: {
 			MergeProfile: {
 				1: {
-					// OldString: Merged profile '
-					// NewString: Merged profile '
+					OldString: Merged profile '
+					NewString: Merged profile '
 				}
 
 				2: {
-					// OldString: "' with the active profile"
-					// NewString: "' with the active profile"
+					OldString: "' with the active profile"
+					NewString: "' with the active profile"
 				}
 			}
 
 			SwapProfile: {
 				1: {
-					// OldString: Swapped the active profile with profile '
-					// NewString: Swapped the active profile with profile '
+					OldString: Swapped the active profile with profile '
+					NewString: Swapped the active profile with profile '
 				}
 
 				2: {
-					// OldString: "'"
-					// NewString: "'"
+					OldString: "'"
+					NewString: "'"
 				}
 			}
 
 			CopyProfile: {
 				1: {
-					// OldString: " (copy)"
-					// NewString: " (copy)"
+					OldString: " (copy)"
+					NewString: " (copy)"
 				}
 
 				2: {
-					// OldString: Successfully copied profile '
-					// NewString: Successfully copied profile '
+					OldString: Successfully copied profile '
+					NewString: Successfully copied profile '
 				}
 
 				3: {
-					// OldString: "'"
-					// NewString: "'"
+					OldString: "'"
+					NewString: "'"
 				}
 			}
 
 			UpdateProfile: {
 				1: {
-					// OldString: Successfully updated profile '
-					// NewString: Successfully updated profile '
+					OldString: Successfully updated profile '
+					NewString: Successfully updated profile '
 				}
 
 				2: {
-					// OldString: "'"
-					// NewString: "'"
+					OldString: "'"
+					NewString: "'"
 				}
 			}
 
 			ReverseMergeProfile: {
 				1: {
-					// OldString: Successfully merged loot from the active profile into profile '
-					// NewString: Successfully merged loot from the active profile into profile '
+					OldString: Successfully merged loot from the active profile into profile '
+					NewString: Successfully merged loot from the active profile into profile '
 				}
 
 				2: {
-					// OldString: "'"
-					// NewString: "'"
+					OldString: "'"
+					NewString: "'"
 				}
 			}
 
 			CombineProfiles: {
 				1: {
-					// OldString: Combined profiles '
-					// NewString: Combined profiles '
+					OldString: Combined profiles '
+					NewString: Combined profiles '
 				}
 
 				2: {
-					// OldString: ", "
-					// NewString: ", "
+					OldString: ", "
+					NewString: ", "
 				}
 
 				3: {
-					// OldString: "' into profile '"
-					// NewString: "' into profile '"
+					OldString: "' into profile '"
+					NewString: "' into profile '"
 				}
 
 				4: {
-					// OldString: "'"
-					// NewString: "'"
+					OldString: "'"
+					NewString: "'"
 				}
 			}
 
 			RemoveErrors: {
 				1: {
-					// OldString: Removed '
-					// NewString: Removed '
+					OldString: Removed '
+					NewString: Removed '
 				}
 
 				2: {
-					// OldString: "' error(s) from profile '"
-					// NewString: "' error(s) from profile '"
+					OldString: "' error(s) from profile '"
+					NewString: "' error(s) from profile '"
 				}
 
 				3: {
-					// OldString: "'"
-					// NewString: "'"
+					OldString: "'"
+					NewString: "'"
 				}
 			}
 
 			*ctor_String: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 
 			*ctor_: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 		}
@@ -3326,54 +3151,54 @@ RecipeEditor: {
 		RecipeCondition: {
 			IsSafe: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 
 				2: {
-					// OldString: Condition '
-					// NewString: Condition '
+					OldString: Condition '
+					NewString: Condition '
 				}
 
 				3: {
-					// OldString: "' does not exist"
-					// NewString: "' does not exist"
+					OldString: "' does not exist"
+					NewString: "' does not exist"
 				}
 			}
 
 			*ctor_Condition_String: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 
 				2: {
-					// OldString: N/A
-					// NewString: N/A
+					OldString: N/A
+					NewString: N/A
 				}
 			}
 
 			*ctor_String: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 
 				2: {
-					// OldString: N/A
-					// NewString: N/A
+					OldString: N/A
+					NewString: N/A
 				}
 			}
 
 			*ctor_: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 
 				2: {
-					// OldString: N/A
-					// NewString: N/A
+					OldString: N/A
+					NewString: N/A
 				}
 			}
 		}
@@ -3381,49 +3206,49 @@ RecipeEditor: {
 		RecipeCraftEvent: {
 			IsSafe: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 
 				2: {
-					// OldString: The craft event '
-					// NewString: The craft event '
+					OldString: The craft event '
+					NewString: The craft event '
 				}
 
 				3: {
-					// OldString: "' does not exist"
-					// NewString: "' does not exist"
+					OldString: "' does not exist"
+					NewString: "' does not exist"
 				}
 			}
 
 			*ctor_: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 
 			*ctor_String_String_OnCraftCallback_Mod: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 
 				2: {
-					// OldString: ":"
-					// NewString: ":"
+					OldString: ":"
+					NewString: ":"
 				}
 			}
 
 			*ctor_String_String_Boolean_Action_Mod: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 
 				2: {
-					// OldString: ":"
-					// NewString: ":"
+					OldString: ":"
+					NewString: ":"
 				}
 			}
 		}
@@ -3431,48 +3256,48 @@ RecipeEditor: {
 		RecipeIngredient: {
 			IsSafe: {
 				1: {
-					// OldString: The recipe group '
-					// NewString: The recipe group '
+					OldString: The recipe group '
+					NewString: The recipe group '
 				}
 
 				2: {
-					// OldString: "' does not exist or is not enabled"
-					// NewString: "' does not exist or is not enabled"
+					OldString: "' does not exist or is not enabled"
+					NewString: "' does not exist or is not enabled"
 				}
 			}
 
 			*ctor_: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 
 			*ctor_Int32_Int32_String: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 
 			*ctor_String_String_Int32_String: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 
 			*ctor_RecipeResult_String: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 
 			*ctor_Item_String: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 		}
@@ -3480,44 +3305,44 @@ RecipeEditor: {
 		RecipeItemRule: {
 			IsSafe: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 
 				2: {
-					// OldString: The item consumption rule '
-					// NewString: The item consumption rule '
+					OldString: The item consumption rule '
+					NewString: The item consumption rule '
 				}
 
 				3: {
-					// OldString: "' does not exist"
-					// NewString: "' does not exist"
+					OldString: "' does not exist"
+					NewString: "' does not exist"
 				}
 			}
 
 			*ctor_: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 
 			*ctor_String_String_ConsumeItemCallback: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 
 			*ctor_Mod_String_String_ConsumeItemCallback: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 
 				2: {
-					// OldString: ":"
-					// NewString: ":"
+					OldString: ":"
+					NewString: ":"
 				}
 			}
 		}
@@ -3525,43 +3350,43 @@ RecipeEditor: {
 		RecipeResult: {
 			IsSafe: {
 				1: {
-					// OldString: Item '
-					// NewString: Item '
+					OldString: Item '
+					NewString: Item '
 				}
 
 				2: {
-					// OldString: "' from mod '"
-					// NewString: "' from mod '"
+					OldString: "' from mod '"
+					NewString: "' from mod '"
 				}
 
 				3: {
-					// OldString: "' is unloaded"
-					// NewString: "' is unloaded"
+					OldString: "' is unloaded"
+					NewString: "' is unloaded"
 				}
 
 				4: {
-					// OldString: Item not set
-					// NewString: Item not set
+					OldString: Item not set
+					NewString: Item not set
 				}
 
 				5: {
-					// OldString: Item stack '
-					// NewString: Item stack '
+					OldString: Item stack '
+					NewString: Item stack '
 				}
 
 				6: {
-					// OldString: "' cannot exceed the max stack of this item '"
-					// NewString: "' cannot exceed the max stack of this item '"
+					OldString: "' cannot exceed the max stack of this item '"
+					NewString: "' cannot exceed the max stack of this item '"
 				}
 
 				7: {
-					// OldString: "'"
-					// NewString: "'"
+					OldString: "'"
+					NewString: "'"
 				}
 
 				8: {
-					// OldString: Item stack value cannot be less than 1
-					// NewString: Item stack value cannot be less than 1
+					OldString: Item stack value cannot be less than 1
+					NewString: Item stack value cannot be less than 1
 				}
 			}
 		}
@@ -3569,59 +3394,59 @@ RecipeEditor: {
 		RecipeWorkstation: {
 			IsSafe: {
 				1: {
-					// OldString: Tile '
-					// NewString: Tile '
+					OldString: Tile '
+					NewString: Tile '
 				}
 
 				2: {
-					// OldString: "' from mod '"
-					// NewString: "' from mod '"
+					OldString: "' from mod '"
+					NewString: "' from mod '"
 				}
 
 				3: {
-					// OldString: "' is unloaded"
-					// NewString: "' is unloaded"
+					OldString: "' is unloaded"
+					NewString: "' is unloaded"
 				}
 
 				4: {
-					// OldString: Tile not set
-					// NewString: Tile not set
+					OldString: Tile not set
+					NewString: Tile not set
 				}
 
 				5: {
-					// OldString: Wall '
-					// NewString: Wall '
+					OldString: Wall '
+					NewString: Wall '
 				}
 
 				6: {
-					// OldString: Wall not set
-					// NewString: Wall not set
+					OldString: Wall not set
+					NewString: Wall not set
 				}
 			}
 
 			AddToRecipe: {
 				1: {
-					// OldString: near wall '
-					// NewString: near wall '
+					OldString: near wall '
+					NewString: near wall '
 				}
 
 				2: {
-					// OldString: "'"
-					// NewString: "'"
+					OldString: "'"
+					NewString: "'"
 				}
 			}
 
 			GetMod: {
 				1: {
-					// OldString: n/a
-					// NewString: n/a
+					OldString: n/a
+					NewString: n/a
 				}
 			}
 
 			GetName: {
 				1: {
-					// OldString: n/a
-					// NewString: n/a
+					OldString: n/a
+					NewString: n/a
 				}
 			}
 		}
@@ -3630,15 +3455,15 @@ RecipeEditor: {
 			ConditionManager: {
 				GetVanillaConditions: {
 					1: {
-						// OldString: Terraria
-						// NewString: Terraria
+						OldString: Terraria
+						NewString: Terraria
 					}
 				}
 
 				GetExtraConditions: {
 					1: {
-						// OldString: Terraria
-						// NewString: Terraria
+						OldString: Terraria
+						NewString: Terraria
 					}
 				}
 			}
@@ -3646,78 +3471,78 @@ RecipeEditor: {
 			SampleConditions: {
 				GetSampleConditions: {
 					1: {
-						// OldString: Needs to be during a solar eclipse
-						// NewString: Needs to be during a solar eclipse
+						OldString: Needs to be during a solar eclipse
+						NewString: Needs to be during a solar eclipse
 					}
 
 					2: {
-						// OldString: Needs to be during a blood moon
-						// NewString: Needs to be during a blood moon
+						OldString: Needs to be during a blood moon
+						NewString: Needs to be during a blood moon
 					}
 
 					3: {
-						// OldString: Needs to be during a pumpkin moon
-						// NewString: Needs to be during a pumpkin moon
+						OldString: Needs to be during a pumpkin moon
+						NewString: Needs to be during a pumpkin moon
 					}
 
 					4: {
-						// OldString: Needs to be during a frost moon
-						// NewString: Needs to be during a frost moon
+						OldString: Needs to be during a frost moon
+						NewString: Needs to be during a frost moon
 					}
 
 					5: {
-						// OldString: Player needs to be a classic character
-						// NewString: Player needs to be a classic character
+						OldString: Player needs to be a classic character
+						NewString: Player needs to be a classic character
 					}
 
 					6: {
-						// OldString: Player needs to be a mediumcore character
-						// NewString: Player needs to be a mediumcore character
+						OldString: Player needs to be a mediumcore character
+						NewString: Player needs to be a mediumcore character
 					}
 
 					7: {
-						// OldString: Player needs to be a hardcore character
-						// NewString: Player needs to be a hardcore character
+						OldString: Player needs to be a hardcore character
+						NewString: Player needs to be a hardcore character
 					}
 
 					8: {
-						// OldString: Player needs to be a journey character
-						// NewString: Player needs to be a journey character
+						OldString: Player needs to be a journey character
+						NewString: Player needs to be a journey character
 					}
 
 					9: {
-						// OldString: World needs to be in hard mode
-						// NewString: World needs to be in hard mode
+						OldString: World needs to be in hard mode
+						NewString: World needs to be in hard mode
 					}
 
 					10: {
-						// OldString: World needs to be a classic world
-						// NewString: World needs to be a classic world
+						OldString: World needs to be a classic world
+						NewString: World needs to be a classic world
 					}
 
 					11: {
-						// OldString: World needs to be an expert world
-						// NewString: World needs to be an expert world
+						OldString: World needs to be an expert world
+						NewString: World needs to be an expert world
 					}
 
 					12: {
-						// OldString: World needs to be a master world
-						// NewString: World needs to be a master world
+						OldString: World needs to be a master world
+						NewString: World needs to be a master world
 					}
 
 					13: {
-						// OldString: World needs to be a journey world
-						// NewString: World needs to be a journey world
+						OldString: World needs to be a journey world
+						NewString: World needs to be a journey world
 					}
 
 					14: {
-						// OldString: Player must be in multiplayer
-						// NewString: Player must be in multiplayer
+						OldString: Player must be in multiplayer
+						NewString: Player must be in multiplayer
 					}
 
 					15: {
-						// OldString: Player must be in singleplayer
-						// NewString: Player must be in singleplayer
+						OldString: Player must be in singleplayer
+						NewString: Player must be in singleplayer
 					}
 				}
 			}
@@ -3725,13 +3550,13 @@ RecipeEditor: {
 			SampleItemRules: {
 				GetSampleItemRules: {
 					1: {
-						// OldString: Alchemy
-						// NewString: Alchemy
+						OldString: Alchemy
+						NewString: Alchemy
 					}
 
 					2: {
-						// OldString: Gives 1/3 chance for every ingredient to not be consumed, if used at an alchemy table. This behavior is already automatically given to all items that can be made at a placed bottle tile.
-						// NewString: Gives 1/3 chance for every ingredient to not be consumed, if used at an alchemy table. This behavior is already automatically given to all items that can be made at a placed bottle tile.
+						OldString: Gives 1/3 chance for every ingredient to not be consumed, if used at an alchemy table. This behavior is already automatically given to all items that can be made at a placed bottle tile.
+						NewString: Gives 1/3 chance for every ingredient to not be consumed, if used at an alchemy table. This behavior is already automatically given to all items that can be made at a placed bottle tile.
 					}
 				}
 			}
@@ -3739,8 +3564,8 @@ RecipeEditor: {
 			ConditionManager+<>c: {
 				<GetConditionsFromShops>b__3_3: {
 					1: {
-						// OldString: Terraria
-						// NewString: Terraria
+						OldString: Terraria
+						NewString: Terraria
 					}
 				}
 			}
@@ -3748,8 +3573,8 @@ RecipeEditor: {
 			SampleConditions+<>c: {
 				<GetSampleConditions>b__0_0: {
 					1: {
-						// OldString: RecipeEditor
-						// NewString: RecipeEditor
+						OldString: RecipeEditor
+						NewString: RecipeEditor
 					}
 				}
 			}
@@ -3758,29 +3583,29 @@ RecipeEditor: {
 		FakeRecipe+<>c: {
 			<AddConditions>b__19_0: {
 				1: {
-					// OldString: Terraria
-					// NewString: Terraria
+					OldString: Terraria
+					NewString: Terraria
 				}
 			}
 
 			<AddAlchemy>b__26_0: {
 				1: {
-					// OldString: Alchemy
-					// NewString: Alchemy
+					OldString: Alchemy
+					NewString: Alchemy
 				}
 			}
 
 			<AddAlchemy>b__26_1: {
 				1: {
-					// OldString: Alchemy
-					// NewString: Alchemy
+					OldString: Alchemy
+					NewString: Alchemy
 				}
 			}
 
 			<GetRecipe>b__39_4: {
 				1: {
-					// OldString: Alchemy
-					// NewString: Alchemy
+					OldString: Alchemy
+					NewString: Alchemy
 				}
 			}
 		}
@@ -3788,8 +3613,8 @@ RecipeEditor: {
 		RecipeShimmerInfo+<>c: {
 			<*ctor>b__4_1: {
 				1: {
-					// OldString: Terraria
-					// NewString: Terraria
+					OldString: Terraria
+					NewString: Terraria
 				}
 			}
 		}
@@ -3798,22 +3623,22 @@ RecipeEditor: {
 			RecipeDefinition+<>c: {
 				<Convert>b__11_0: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				<Convert>b__11_2: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 
 				<Convert>b__11_3: {
 					1: {
-						// OldString: ""
-						// NewString: ""
+						OldString: ""
+						NewString: ""
 					}
 				}
 			}
@@ -3824,8 +3649,8 @@ RecipeEditor: {
 		BinaryReaderExtensions: {
 			ReadRecipeResult: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 		}
@@ -3833,8 +3658,8 @@ RecipeEditor: {
 		GeneralExtensions: {
 			FromMod: {
 				1: {
-					// OldString: Terraria
-					// NewString: Terraria
+					OldString: Terraria
+					NewString: Terraria
 				}
 			}
 		}
@@ -3842,13 +3667,13 @@ RecipeEditor: {
 		RecipeExtensions: {
 			FindItemlessWalls: {
 				1: {
-					// OldString: Wall '
-					// NewString: Wall '
+					OldString: Wall '
+					NewString: Wall '
 				}
 
 				2: {
-					// OldString: "' does not have an item associated with it"
-					// NewString: "' does not have an item associated with it"
+					OldString: "' does not have an item associated with it"
+					NewString: "' does not have an item associated with it"
 				}
 			}
 		}
@@ -3858,8 +3683,8 @@ RecipeEditor: {
 		SettingsConfig: {
 			AcceptClientChanges: {
 				1: {
-					// OldString: You are not the host! Try changing the config in single player
-					// NewString: You are not the host! Try changing the config in single player
+					OldString: You are not the host! Try changing the config in single player
+					NewString: You are not the host! Try changing the config in single player
 				}
 			}
 		}
@@ -3868,35 +3693,35 @@ RecipeEditor: {
 			GroupEdits: {
 				DoesNewConfigMatch: {
 					1: {
-						// OldString: New group config count does not equal current group config count, reloading...
-						// NewString: New group config count does not equal current group config count, reloading...
+						OldString: New group config count does not equal current group config count, reloading...
+						NewString: New group config count does not equal current group config count, reloading...
 					}
 
 					2: {
-						// OldString: Group mismatch with new config at index '
-						// NewString: Group mismatch with new config at index '
+						OldString: Group mismatch with new config at index '
+						NewString: Group mismatch with new config at index '
 					}
 
 					3: {
-						// OldString: "', reloading..."
-						// NewString: "', reloading..."
+						OldString: "', reloading..."
+						NewString: "', reloading..."
 					}
 				}
 
 				IsGroupEqual: {
 					1: {
-						// OldString: Group name mismatch with new config, reloading...
-						// NewString: Group name mismatch with new config, reloading...
+						OldString: Group name mismatch with new config, reloading...
+						NewString: Group name mismatch with new config, reloading...
 					}
 
 					2: {
-						// OldString: Group items mismatch with new config, reloading...
-						// NewString: Group items mismatch with new config, reloading...
+						OldString: Group items mismatch with new config, reloading...
+						NewString: Group items mismatch with new config, reloading...
 					}
 
 					3: {
-						// OldString: Group types mismatch with new config, reloading...
-						// NewString: Group types mismatch with new config, reloading...
+						OldString: Group types mismatch with new config, reloading...
+						NewString: Group types mismatch with new config, reloading...
 					}
 				}
 			}
@@ -3904,70 +3729,70 @@ RecipeEditor: {
 			RecipeEdits: {
 				DoesNewConfigMatch: {
 					1: {
-						// OldString: New config recipe count does not equal current config recipe count, reloading...
-						// NewString: New config recipe count does not equal current config recipe count, reloading...
+						OldString: New config recipe count does not equal current config recipe count, reloading...
+						NewString: New config recipe count does not equal current config recipe count, reloading...
 					}
 
 					2: {
-						// OldString: Recipe mismatch with new config at index '
-						// NewString: Recipe mismatch with new config at index '
+						OldString: Recipe mismatch with new config at index '
+						NewString: Recipe mismatch with new config at index '
 					}
 
 					3: {
-						// OldString: "', reloading..."
-						// NewString: "', reloading..."
+						OldString: "', reloading..."
+						NewString: "', reloading..."
 					}
 				}
 
 				IsRecipeEqual: {
 					1: {
-						// OldString: Recipe result mismatch with new config, reloading...
-						// NewString: Recipe result mismatch with new config, reloading...
+						OldString: Recipe result mismatch with new config, reloading...
+						NewString: Recipe result mismatch with new config, reloading...
 					}
 
 					2: {
-						// OldString: Recipe result stack yield mismatch with new config, reloading...
-						// NewString: Recipe result stack yield mismatch with new config, reloading...
+						OldString: Recipe result stack yield mismatch with new config, reloading...
+						NewString: Recipe result stack yield mismatch with new config, reloading...
 					}
 
 					3: {
-						// OldString: Recipe types mismatch with new config, reloading...
-						// NewString: Recipe types mismatch with new config, reloading...
+						OldString: Recipe types mismatch with new config, reloading...
+						NewString: Recipe types mismatch with new config, reloading...
 					}
 
 					4: {
-						// OldString: Ingredients mismatch with new config, reloading...
-						// NewString: Ingredients mismatch with new config, reloading...
+						OldString: Ingredients mismatch with new config, reloading...
+						NewString: Ingredients mismatch with new config, reloading...
 					}
 
 					5: {
-						// OldString: Workstations mismatch with new config, reloading...
-						// NewString: Workstations mismatch with new config, reloading...
+						OldString: Workstations mismatch with new config, reloading...
+						NewString: Workstations mismatch with new config, reloading...
 					}
 
 					6: {
-						// OldString: Special tiles mismatch with new config, reloading...
-						// NewString: Special tiles mismatch with new config, reloading...
+						OldString: Special tiles mismatch with new config, reloading...
+						NewString: Special tiles mismatch with new config, reloading...
 					}
 
 					7: {
-						// OldString: Conditions mismatch with new config, reloading...
-						// NewString: Conditions mismatch with new config, reloading...
+						OldString: Conditions mismatch with new config, reloading...
+						NewString: Conditions mismatch with new config, reloading...
 					}
 
 					8: {
-						// OldString: Recipe groups mismatch with new config, reloading...
-						// NewString: Recipe groups mismatch with new config, reloading...
+						OldString: Recipe groups mismatch with new config, reloading...
+						NewString: Recipe groups mismatch with new config, reloading...
 					}
 
 					9: {
-						// OldString: Craft events mismatch with new config, reloading...
-						// NewString: Craft events mismatch with new config, reloading...
+						OldString: Craft events mismatch with new config, reloading...
+						NewString: Craft events mismatch with new config, reloading...
 					}
 
 					10: {
-						// OldString: Consumption rules mismatch with new config, reloading...
-						// NewString: Consumption rules mismatch with new config, reloading...
+						OldString: Consumption rules mismatch with new config, reloading...
+						NewString: Consumption rules mismatch with new config, reloading...
 					}
 				}
 			}
@@ -3978,22 +3803,22 @@ RecipeEditor: {
 		NewUITextBox: {
 			RightClick: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 
 			DrawSelf: {
 				1: {
-					// OldString: |
-					// NewString: |
+					OldString: |
+					NewString: |
 				}
 			}
 
 			*ctor: {
 				1: {
-					// OldString: ""
-					// NewString: ""
+					OldString: ""
+					NewString: ""
 				}
 			}
 		}
@@ -4001,13 +3826,13 @@ RecipeEditor: {
 		UIHorizontalScrollbar: {
 			*ctor: {
 				1: {
-					// OldString: Images/UI/Scrollbar
-					// NewString: Images/UI/Scrollbar
+					OldString: Images/UI/Scrollbar
+					NewString: Images/UI/Scrollbar
 				}
 
 				2: {
-					// OldString: Images/UI/ScrollbarInner
-					// NewString: Images/UI/ScrollbarInner
+					OldString: Images/UI/ScrollbarInner
+					NewString: Images/UI/ScrollbarInner
 				}
 			}
 		}
@@ -4016,8 +3841,8 @@ RecipeEditor: {
 	RecipeSystem+<>c: {
 		<FinalizeRecipeGroupList>b__6_0: {
 			1: {
-				// OldString: RecipeEditor:
-				// NewString: RecipeEditor:
+				OldString: RecipeEditor:
+				NewString: RecipeEditor:
 			}
 		}
 	}

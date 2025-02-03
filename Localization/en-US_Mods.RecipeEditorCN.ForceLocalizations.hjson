@@ -1,62 +1,3 @@
-SimpleUILib: {
-	DropDownList: {
-		AddGridItems: {
-			1: {
-				OldString: Close
-				NewString: Close
-			}
-		}
-	}
-
-	FloatSlider: {
-		Update: {
-			1: {
-				OldString: "0.00"
-				NewString: "0.00"
-			}
-		}
-
-		*ctor: {
-			1: {
-				OldString: "0.00"
-				NewString: "0.00"
-			}
-		}
-	}
-
-	NewCheckbox: {
-		*ctor: {
-			1: {
-				OldString: "   "
-				NewString: "   "
-			}
-		}
-	}
-
-	NPCIcon: {
-		MouseOver: {
-			1: {
-				OldString: " ("
-				NewString: " ("
-			}
-
-			2: {
-				OldString: )
-				NewString: )
-			}
-		}
-	}
-
-	UICustomButton: {
-		*ctor: {
-			1: {
-				OldString: ""
-				NewString: ""
-			}
-		}
-	}
-}
-
 RecipeEditor: {
 	CallFunctions: {
 		Call: {
@@ -410,18 +351,6 @@ RecipeEditor: {
 				NewString: /
 			}
 		}
-
-		get_DisplayName: {
-			1: {
-				OldString: ''' "'''
-				NewString: ''' "'''
-			}
-
-			2: {
-				OldString: '''"'''
-				NewString: '''"'''
-			}
-		}
 	}
 
 	UI: {
@@ -431,11 +360,6 @@ RecipeEditor: {
 					1: {
 						OldString: "0"
 						NewString: "0"
-					}
-
-					2: {
-						OldString: UI/Tutorial/Images/Recipe Editor 0.1.7 Guide-
-						NewString: UI/Tutorial/Images/Recipe Editor 0.1.7 Guide-
 					}
 				}
 			}
@@ -615,20 +539,6 @@ RecipeEditor: {
 						NewString: " conditons"
 					}
 				}
-
-				<OnInitialize>b__7_1: {
-					1: {
-						OldString: ""
-						NewString: ""
-					}
-				}
-
-				*ctor: {
-					1: {
-						OldString: ""
-						NewString: ""
-					}
-				}
 			}
 
 			AddEventsAndRulesGrid: {
@@ -760,36 +670,6 @@ RecipeEditor: {
 						NewString: " recipe groups"
 					}
 				}
-
-				<OnInitialize>b__8_1: {
-					1: {
-						OldString: ""
-						NewString: ""
-					}
-				}
-
-				*ctor: {
-					1: {
-						OldString: ""
-						NewString: ""
-					}
-				}
-			}
-
-			CraftEventCheckbox: {
-				MoveBack: {
-					1: {
-						OldString: "   "
-						NewString: "   "
-					}
-				}
-
-				MakeRoomForError: {
-					1: {
-						OldString: "     "
-						NewString: "     "
-					}
-				}
 			}
 
 			DisableModMenu: {
@@ -897,22 +777,6 @@ RecipeEditor: {
 				}
 			}
 
-			ItemRuleCheckbox: {
-				MoveBack: {
-					1: {
-						OldString: "   "
-						NewString: "   "
-					}
-				}
-
-				MakeRoomForError: {
-					1: {
-						OldString: "     "
-						NewString: "     "
-					}
-				}
-			}
-
 			RecipeButtonGrid: {
 				*ctor: {
 					1: {
@@ -933,22 +797,6 @@ RecipeEditor: {
 					4: {
 						OldString: Close
 						NewString: Close
-					}
-				}
-			}
-
-			RecipeConditionCheckbox: {
-				MoveBack: {
-					1: {
-						OldString: "   "
-						NewString: "   "
-					}
-				}
-
-				MakeRoomForError: {
-					1: {
-						OldString: "     "
-						NewString: "     "
 					}
 				}
 			}
@@ -980,19 +828,6 @@ RecipeEditor: {
 			}
 
 			RecipeDetailsGrid: {
-				AddIngredient_Int32_Int32: {
-					1: {
-						OldString: ""
-						NewString: ""
-					}
-				}
-
-				AddIngredient_Item: {
-					1: {
-						OldString: ""
-						NewString: ""
-					}
-				}
 
 				GetRecipe: {
 					1: {
@@ -1225,16 +1060,6 @@ RecipeEditor: {
 					2: {
 						OldString: Search recipes
 						NewString: Search recipes
-					}
-
-					3: {
-						OldString: ""
-						NewString: ""
-					}
-
-					4: {
-						OldString: ...
-						NewString: ...
 					}
 				}
 			}
@@ -2592,17 +2417,17 @@ RecipeEditor: {
 				OnInitialize: {
 					1: {
 						OldString: Info
-						NewString: Info
+						NewString: 资讯
 					}
 
 					2: {
 						OldString: Recipe Editor
-						NewString: Recipe Editor
+						NewString: 合成编辑
 					}
 
 					3: {
 						OldString: Group Editor
-						NewString: Group Editor
+						NewString: 合成组编辑
 					}
 
 					4: {
@@ -2612,7 +2437,7 @@ RecipeEditor: {
 
 					5: {
 						OldString: Help
-						NewString: Help
+						NewString: 帮助
 					}
 				}
 			}
